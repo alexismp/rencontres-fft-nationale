@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TenUp IdF Explorer
 
-## Getting Started
+Ce projet est un explorateur des rencontres du Championnat de France interclubs de tennis (Messieurs, Nationales 1 à 4) se déroulant en région Île-de-France.
 
-First, run the development server:
+## Fonctionnalités
+
+- **Extraction de données (Scraping)** : Récupération automatisée des informations de rencontres depuis la plateforme TenUp.
+- **Filtrage Avancé** : Filtrez les rencontres par division (Nationale 1, 2, 3 ou 4) et par date.
+- **Localisation** : Calculez la distance entre votre position (via une adresse ou un code postal) et le lieu de la rencontre.
+- **Focus Île-de-France** : Identification automatique des matchs se déroulant en IDF.
+- **Liens directs** : Accès direct aux feuilles de match officielles sur TenUp.
+
+## Installation
+
+Tout d'abord, installez les dépendances :
+
+```bash
+npm install
+```
+
+Ensuite, lancez le serveur de développement :
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir le résultat.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Utilisation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Lancer le recensement** : Dans l'interface, ouvrez la section "Analyse" pour démarrer le scraping des divisions souhaitées.
+2. **Rechercher** : Utilisez les filtres de division et de date pour trouver des rencontres spécifiques.
+3. **Géolocalisation** : Saisissez votre code postal pour voir les rencontres les plus proches de chez vous.
 
-## Learn More
+## Technologies utilisées
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js** (App Router)
+- **TypeScript**
+- **Tailwind CSS**
+- **API Adresse (data.gouv.fr)** pour la géolocalisation
+- **Puppeteer** (via les scripts de test) pour l'extraction de données
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Développement
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Le projet contient plusieurs scripts utilitaires pour le scraping :
+- `backfill.js` : Pour remplir la base de données initiale.
+- `scraper-test*.js` : Scripts de test pour les différentes étapes de l'extraction.
