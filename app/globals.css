@@ -10,6 +10,13 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-tu-primary-light: #ebff00;
+  --color-tu-primary-dark: #232346;
+  --color-tu-secondary-100: #e1e1f5;
+  --color-tu-secondary-500: #2330a4;
+  --color-tu-secondary-900: #151534;
+  --color-tu-orange: #ffaf00;
 }
 
 @media (prefers-color-scheme: dark) {
