@@ -45,3 +45,16 @@ Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour
 Le projet contient plusieurs scripts utilitaires pour le scraping :
 - `backfill.js` : Pour remplir la base de données initiale.
 - `scraper-test*.js` : Scripts de test pour les différentes étapes de l'extraction.
+
+## Déploiement sur Google Cloud Run
+
+Pour déployer cette application sur Google Cloud Run :
+
+1. Assurez-vous d'avoir le [SDK Google Cloud](https://cloud.google.com/sdk) installé et configuré.
+2. Exécutez la commande suivante à la racine du projet :
+
+```bash
+gcloud run deploy --source .
+```
+
+3. Suivez les instructions pour choisir la région et autoriser les appels non authentifiés si nécessaire.
