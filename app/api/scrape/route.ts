@@ -13,6 +13,33 @@ if (!globalAny.scraperStatus) {
     globalAny.scraperStatus = { isRunning: false, progress: "Prêt", stopRequested: false };
 }
 
+const leaguesMapping = {
+  "AUVERGNE RHONE-ALPES": ["01", "03", "07", "15", "26", "38", "42", "43", "63", "69", "73", "74"],
+  "BOURGOGNE FRANCHE COMTE": ["21", "25", "39", "58", "70", "71", "89", "90"],
+  "BRETAGNE": ["22", "29", "35", "56"],
+  "CENTRE VAL DE LOIRE": ["18", "28", "36", "37", "41", "45"],
+  "CORSE": ["20"],
+  "GRAND EST": ["08", "10", "51", "52", "54", "55", "57", "67", "68"],
+  "HAUTS DE FRANCE": ["02", "59", "60", "62", "80"],
+  "ILE DE FRANCE": ["75", "77", "78", "91", "92", "93", "94", "95"],
+  "NORMANDIE": ["14", "27", "50", "61", "76"],
+  "NOUVELLE AQUITAINE": ["16", "17", "19", "23", "24", "33", "40", "47", "64", "79", "86", "87"],
+  "OCCITANIE": ["09", "11", "12", "30", "31", "32", "34", "46", "48", "65", "81", "82"],
+  "PAYS DE LA LOIRE": ["44", "49", "53", "72", "85"],
+  "PROVENCE ALPES COTE D'AZUR": ["04", "05", "06", "13", "83", "84"]
+};
+
+function getLeagueByPostcode(postcode: string) {
+  if (!postcode) return null;
+  const dep = postcode.substring(0, 2);
+  for (const [league, deps] of Object.entries(leaguesMapping)) {
+    if (deps.includes(dep)) {
+      return league;
+    }
+  }
+  return null;
+}
+
 // Helper to write progress and log
 function updateStatus(status: { isRunning?: boolean, progress?: string, stopRequested?: boolean }) {
     if (status.progress) console.log(`[SCRAPER] ${status.progress}`);
@@ -201,10 +228,11 @@ async function scrapeBackground(divisions: string[]) {
                                 await p2.goto(card.matchLink, { waitUntil: 'domcontentloaded', timeout: 15000 });
 
                                 let isIdF = false;
+                                let league = '';
 
                                 try {
-                                    // Wait specifically for the match header card to be visible in the DOM
-                                    const headerLocator = p2.locator('.bg-white', { hasText: 'Interclubs Seniors Messieurs 2026' }).first();
+                                    // Wait specifically for the match header card to be visible in the DOM, using a regular expression for both gender divisions
+                                    const headerLocator = p2.locator('.bg-white', { hasText: /Interclubs Seniors/i }).first();
                                     await headerLocator.waitFor({ state: 'visible', timeout: 6000 });
 
                                     const matchHeaderText = await headerLocator.textContent() || '';
@@ -213,23 +241,25 @@ async function scrapeBackground(divisions: string[]) {
                                     // <div class="grid min-w-0 gap-2"><div class="flex flex-col truncate ..."><div class="my-auto flex flex-col text-center">
                                     // <div class="flex ..."><a ...>TC LE TOUQUET 1</a></div><p class="truncate max-lg:text-sm"> (HAUTS DE FRANCE) </p>
                                     // We take the FIRST `<p>` block inside the grid, as that corresponds to the Receiving Team (Team 1).
-                                    const leagueLocator = headerLocator.locator('p.truncate').first();
-                                    await leagueLocator.waitFor({ state: 'attached', timeout: 2000 });
-
-                                    const leagueText = await leagueLocator.textContent() || '';
-                                    const leagueClean = leagueText.toUpperCase();
-
-                                    isIdF = leagueClean.includes('ILE DE FRANCE') || leagueClean.includes('PARIS');
+                                    // Instead of relying on a fragile CSS selector that might not attach in time,
+                                    // we grab the innerHTML of the header and extract the first league text (which belongs to the home team).
+                                    const headerHtml = await headerLocator.innerHTML();
+                                    const matchFirstTeam = headerHtml.match(/<div class="grid min-w-0 gap-2">[\s\S]*?<p class="truncate[^>]*>(.*?)<\/p>/);
+                                    
+                                    if (matchFirstTeam) {
+                                        league = matchFirstTeam[1].replace(/[()]/g, '').trim().toUpperCase();
+                                        isIdF = league.includes('ILE DE FRANCE') || league.includes('PARIS');
+                                    }
                                 } catch (timeoutErr) {
                                     // If the page failed to render the match content properly, we cannot safely assume it's IdF
                                     console.log(`[SCRAPER] Timeout waiting for match header on ${card.matchLink}`);
                                 }
 
-                                if (isIdF) {
-                                    console.log(`[SCRAPER] MATCH IS IDF: ${card.matchLink}`);
-                                    updateStatus({ isRunning: true, progress: `Found IdF match in ${div} ${poule} ${journeeText}` });
+                                if (league) {
+                                    console.log(`[SCRAPER] LEAGUE DETECTED: ${league} for ${card.matchLink}`);
+                                    updateStatus({ isRunning: true, progress: `Found match in ${div} ${poule} ${journeeText}` });
                                 } else {
-                                    console.log(`[SCRAPER] Match skipped (Not IdF or Away Match).`);
+                                    console.log(`[SCRAPER] Match league could not be determined.`);
                                 }
 
                                 const titles = await p2.$$eval('h1, h2, h3', els => els.map(e => e.textContent?.trim()));
@@ -262,7 +292,8 @@ async function scrapeBackground(divisions: string[]) {
                                                             lat: validFeature.geometry.coordinates[1],
                                                             lng: validFeature.geometry.coordinates[0],
                                                             city: validFeature.properties.city,
-                                                            postcode: validFeature.properties.postcode
+                                                            postcode: validFeature.properties.postcode,
+                                                            league: getLeagueByPostcode(validFeature.properties.postcode)
                                                         };
                                                         location = loc;
                                                     }
@@ -288,6 +319,7 @@ async function scrapeBackground(divisions: string[]) {
                                     rawText: card.text,
                                     titles: titles,
                                     isIdF: isIdF,
+                                    league: league,
                                     location: location
                                 });
                                 // Incrementally save

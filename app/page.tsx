@@ -9,7 +9,7 @@ export default function Home() {
     const [viewDivisionFilter, setViewDivisionFilter] = useState('');
     const [genderFilter, setGenderFilter] = useState('');
     const [selectedDivisions, setSelectedDivisions] = useState(['NATIONALE 1_M', 'NATIONALE 2_M', 'NATIONALE 3_M', 'NATIONALE 4_M', 'NATIONALE 1_F', 'NATIONALE 2_F', 'NATIONALE 3_F']);
-    const [showIdfOnly, setShowIdfOnly] = useState(true);
+    const [selectedLeague, setSelectedLeague] = useState('');
     const [userAddress, setUserAddress] = useState('');
     const [userCoords, setUserCoords] = useState<{ lat: number, lng: number } | null>(null);
     const [sortByDistance, setSortByDistance] = useState(false);
@@ -46,13 +46,27 @@ export default function Home() {
 
     useEffect(() => {
         fetchStatus();
-        fetchMatches();
-        const interval = setInterval(() => {
-            fetchStatus();
-            fetchMatches();
-        }, 3000);
-        return () => clearInterval(interval);
+        fetchMatches(); // Initial load
     }, []);
+
+    useEffect(() => {
+        let interval: NodeJS.Timeout;
+        if (status?.isRunning) {
+            interval = setInterval(() => {
+                fetchStatus(); // Only poll status to update progress UI
+            }, 3000);
+        }
+        return () => {
+            if (interval) clearInterval(interval);
+        }
+    }, [status?.isRunning]);
+
+    // Refresh matches when extraction finishes
+    useEffect(() => {
+        if (status?.isRunning === false) {
+            fetchMatches();
+        }
+    }, [status?.isRunning]);
 
     const startScrape = async () => {
         setLoading(true);
@@ -83,6 +97,8 @@ export default function Home() {
         const [d2, m2, y2] = b.split('/');
         return new Date(Number(y1), Number(m1) - 1, Number(d1)).getTime() - new Date(Number(y2), Number(m2) - 1, Number(d2)).getTime();
     });
+
+    const uniqueLeagues = Array.from(new Set(matches.map(m => m.league).filter(Boolean))).sort();
 
     const handleLocate = async () => {
         if (!userAddress.trim()) {
@@ -133,7 +149,7 @@ export default function Home() {
     };
 
     const filteredMatches = matches.filter(m => {
-        if (showIdfOnly && !m.isIdF) return false;
+        if (selectedLeague && m.league !== selectedLeague) return false;
         if (viewDivisionFilter && m.division !== viewDivisionFilter) return false;
         if (genderFilter && m.gender !== genderFilter) return false;
 
@@ -187,7 +203,7 @@ export default function Home() {
                         TenUp IdF Explorer
                     </h1>
                     <p className="text-lg text-[#e1e1f5]/70 max-w-2xl">
-                        Découvrez toutes les rencontres du Championnat de France interclubs 2026 messieurs (Nationale 1 à 4) qui se déroulent en région Île-de-France.
+                        Découvrez toutes les rencontres du Championnat de France interclubs 2026 messieurs (Nationale 1 à 4) et dames (Nationale 1 à 3).
                     </p>
                 </header>
 
@@ -196,7 +212,7 @@ export default function Home() {
                         onClick={() => setIsAnalysisOpen(!isAnalysisOpen)}
                         className="flex items-center justify-between w-full text-left"
                     >
-                        <h2 className="text-2xl font-bold text-white">Analyse des rencontres sur TenUp</h2>
+                        <h2 className="text-2xl font-bold text-white">Analyse des rencontres depuis TenUp</h2>
                         <svg className={`w-6 h-6 text-white transition-transform ${isAnalysisOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
                     </button>
                     {isAnalysisOpen && (
@@ -258,7 +274,7 @@ export default function Home() {
                                             disabled={loading}
                                             className="px-8 py-3 bg-white text-black font-semibold rounded-xl hover:bg-neutral-200 transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-[0_0_20px_rgba(255,255,255,0.15)] hover:shadow-[0_0_30px_rgba(255,255,255,0.25)] flex-shrink-0"
                                         >
-                                            Lancer le recensement
+                                            Lancer l'analyse
                                         </button>
                                     )}
                                 </div>
@@ -278,16 +294,21 @@ export default function Home() {
                         <div className="flex flex-col lg:flex-row gap-4 w-full justify-between xl:items-center">
                             <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
                                 <div className="flex flex-wrap gap-2 w-full lg:w-auto">
-                                    <button
-                                        onClick={() => setShowIdfOnly(!showIdfOnly)}
-                                        className={`px-4 py-3 rounded-xl text-sm font-medium transition-all flex items-center gap-2 whitespace-nowrap ${showIdfOnly ? 'bg-[#2330a4]/20 text-[#ebff00] border border-[#2330a4]/50' : 'bg-white/5 text-[#e1e1f5]/70 border border-transparent'}`}
-                                        title="Île-de-France Uniquement"
-                                    >
-                                        <div className={`w-4 h-4 rounded-full border flex items-center justify-center flex-shrink-0 ${showIdfOnly ? 'border-[#ebff00] bg-[#ebff00]' : 'border-neutral-500'}`}>
-                                            {showIdfOnly && <div className="w-2 h-2 rounded-full bg-[#151534]"></div>}
+                                    <div className="relative min-w-[200px] w-full sm:w-auto">
+                                        <select
+                                            value={selectedLeague}
+                                            onChange={e => setSelectedLeague(e.target.value)}
+                                            className="w-full bg-[#232346] border border-white/10 text-white rounded-xl px-4 py-3 focus:outline-none focus:border-[#2330a4] focus:ring-1 focus:ring-[#2330a4] transition-all appearance-none cursor-pointer"
+                                        >
+                                            <option value="">Toutes les ligues</option>
+                                            {uniqueLeagues.map(l => (
+                                                <option key={l} value={l}>{l}</option>
+                                            ))}
+                                        </select>
+                                        <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-[#e1e1f5]/70">
+                                            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
                                         </div>
-                                        <span className="hidden sm:inline">IdF Seul</span>
-                                    </button>
+                                    </div>
                                     <input
                                         type="text"
                                         placeholder="Ville ou code (ex: 75001)"
@@ -299,20 +320,11 @@ export default function Home() {
                                     <button
                                         onClick={handleLocate}
                                         disabled={locating}
-                                        className="px-4 py-3 bg-white/5 text-[#ebff00] font-medium rounded-xl hover:bg-white/10 transition-all border border-white/20 disabled:opacity-50 whitespace-nowrap"
-                                        title="Géolocaliser"
+                                        className={`px-4 py-3 font-medium rounded-xl transition-all border disabled:opacity-50 whitespace-nowrap flex-shrink-0 ${userCoords ? 'bg-[#2330a4] text-white shadow-[0_0_15px_rgba(35,48,164,0.5)] border-transparent' : 'bg-white/5 text-[#ebff00] hover:bg-white/10 border-white/20'}`}
+                                        title={userCoords ? 'Trié par distance' : 'Géolocaliser'}
                                     >
                                         {locating ? '...' : '📍'}
                                     </button>
-                                    {userCoords && (
-                                        <button
-                                            onClick={() => setSortByDistance(!sortByDistance)}
-                                            title="Trier par Distance"
-                                            className={`px-4 py-3 rounded-xl font-medium transition-all whitespace-nowrap flex-shrink-0 border ${sortByDistance ? 'bg-[#2330a4] text-white shadow-[0_0_15px_rgba(35,48,164,0.5)] border-transparent' : 'bg-white/5 text-[#e1e1f5]/70 border-white/20 hover:bg-white/10'}`}
-                                        >
-                                            {sortByDistance ? '✓ Trié' : 'Trier'}
-                                        </button>
-                                    )}
                                 </div>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
@@ -378,9 +390,9 @@ export default function Home() {
                                         <div className="flex justify-between items-start">
                                             <div className="space-y-1">
                                                 <span className="text-xs font-bold text-[#ebff00] uppercase tracking-wider">{match.division} - {match.poule} <span className="text-white/70 ml-1">({match.gender || 'M'})</span></span>
-                                                <h3 className={`text-lg font-medium transition-colors uppercase ${match.isIdF ? 'text-white group-hover:text-white' : 'text-[#e1e1f5]/70 group-hover:text-white'}`}>
+                                                <h3 className={`text-lg font-medium transition-colors uppercase ${!match.league ? 'text-[#e1e1f5]/70 group-hover:text-white' : 'text-white'}`}>
                                                     {match.journee}
-                                                    {!match.isIdF && <span className="ml-3 text-[10px] bg-white/5 text-[#e1e1f5]/50 px-2 py-1 rounded">HORS IDF</span>}
+                                                    {match.league && <span className="ml-3 text-[10px] bg-[#2330a4]/30 text-white px-2 py-1 rounded border border-[#2330a4]/50">{match.league}</span>}
                                                 </h3>
                                                 {match.computedDistance > -1 && (
                                                     <span className="text-sm font-semibold text-[#ffaf00] mt-2 block">
