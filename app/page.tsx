@@ -7,7 +7,8 @@ export default function Home() {
     const [loading, setLoading] = useState(false);
     const [dateFilter, setDateFilter] = useState('');
     const [viewDivisionFilter, setViewDivisionFilter] = useState('');
-    const [selectedDivisions, setSelectedDivisions] = useState(['NATIONALE 1', 'NATIONALE 2', 'NATIONALE 3', 'NATIONALE 4']);
+    const [genderFilter, setGenderFilter] = useState('');
+    const [selectedDivisions, setSelectedDivisions] = useState(['NATIONALE 1_M', 'NATIONALE 2_M', 'NATIONALE 3_M', 'NATIONALE 4_M', 'NATIONALE 1_F', 'NATIONALE 2_F', 'NATIONALE 3_F']);
     const [showIdfOnly, setShowIdfOnly] = useState(true);
     const [userAddress, setUserAddress] = useState('');
     const [userCoords, setUserCoords] = useState<{ lat: number, lng: number } | null>(null);
@@ -134,6 +135,7 @@ export default function Home() {
     const filteredMatches = matches.filter(m => {
         if (showIdfOnly && !m.isIdF) return false;
         if (viewDivisionFilter && m.division !== viewDivisionFilter) return false;
+        if (genderFilter && m.gender !== genderFilter) return false;
 
         if (!dateFilter) return true;
 
@@ -200,19 +202,36 @@ export default function Home() {
                     {isAnalysisOpen && (
                         <div className="space-y-6 pt-6 mt-6 border-t border-white/10">
                             <div className="flex flex-col md:flex-row gap-6 justify-between border-b border-white/10 pb-6">
-                                <div className="space-y-3">
-                                    <h3 className="text-lg font-medium text-white">Divisions ciblées</h3>
-                                    <div className="flex flex-wrap gap-3">
-                                        {['NATIONALE 1', 'NATIONALE 2', 'NATIONALE 3', 'NATIONALE 4'].map(div => (
-                                            <button
-                                                key={div}
-                                                onClick={() => toggleDivision(div)}
-                                                disabled={status?.isRunning}
-                                                className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${selectedDivisions.includes(div) ? 'bg-[#2330a4] text-neutral-950 shadow-[0_0_15px_rgba(35,48,164,0.5)]' : 'bg-white/5 text-[#e1e1f5]/70 hover:bg-white/10'} disabled:opacity-50 disabled:cursor-not-allowed`}
-                                            >
-                                                {div}
-                                            </button>
-                                        ))}
+                                <div className="space-y-6">
+                                    <div className="space-y-3">
+                                        <h3 className="text-lg font-medium text-white">Divisions Messieurs</h3>
+                                        <div className="flex flex-wrap gap-3">
+                                            {['NATIONALE 1_M', 'NATIONALE 2_M', 'NATIONALE 3_M', 'NATIONALE 4_M'].map(div => (
+                                                <button
+                                                    key={div}
+                                                    onClick={() => toggleDivision(div)}
+                                                    disabled={status?.isRunning}
+                                                    className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${selectedDivisions.includes(div) ? 'bg-[#2330a4] text-white shadow-[0_0_15px_rgba(35,48,164,0.5)]' : 'bg-white/5 text-[#e1e1f5]/70 hover:bg-white/10'} disabled:opacity-50 disabled:cursor-not-allowed`}
+                                                >
+                                                    {div.replace('_M', '')}
+                                                </button>
+                                            ))}
+                                        </div>
+                                    </div>
+                                    <div className="space-y-3">
+                                        <h3 className="text-lg font-medium text-white">Divisions Dames</h3>
+                                        <div className="flex flex-wrap gap-3">
+                                            {['NATIONALE 1_F', 'NATIONALE 2_F', 'NATIONALE 3_F'].map(div => (
+                                                <button
+                                                    key={div}
+                                                    onClick={() => toggleDivision(div)}
+                                                    disabled={status?.isRunning}
+                                                    className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${selectedDivisions.includes(div) ? 'bg-[#2330a4] text-white shadow-[0_0_15px_rgba(35,48,164,0.5)]' : 'bg-white/5 text-[#e1e1f5]/70 hover:bg-white/10'} disabled:opacity-50 disabled:cursor-not-allowed`}
+                                                >
+                                                    {div.replace('_F', '')}
+                                                </button>
+                                            ))}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -297,6 +316,20 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
+                                <div className="relative min-w-[150px] w-full sm:max-w-xs">
+                                    <select
+                                        value={genderFilter}
+                                        onChange={e => setGenderFilter(e.target.value)}
+                                        className="w-full bg-[#232346] border border-white/10 text-white rounded-xl px-4 py-3 focus:outline-none focus:border-[#2330a4] focus:ring-1 focus:ring-[#2330a4] transition-all appearance-none cursor-pointer"
+                                    >
+                                        <option value="">Sexe</option>
+                                        <option value="M">Messieurs (M)</option>
+                                        <option value="F">Dames (F)</option>
+                                    </select>
+                                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-[#e1e1f5]/70">
+                                        <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
+                                    </div>
+                                </div>
                                 <div className="relative min-w-[200px] w-full lg:w-auto">
                                     <select
                                         value={viewDivisionFilter}
@@ -344,7 +377,7 @@ export default function Home() {
                                     <div className="space-y-4">
                                         <div className="flex justify-between items-start">
                                             <div className="space-y-1">
-                                                <span className="text-xs font-bold text-[#ebff00] uppercase tracking-wider">{match.division} - {match.poule}</span>
+                                                <span className="text-xs font-bold text-[#ebff00] uppercase tracking-wider">{match.division} - {match.poule} <span className="text-white/70 ml-1">({match.gender || 'M'})</span></span>
                                                 <h3 className={`text-lg font-medium transition-colors uppercase ${match.isIdF ? 'text-white group-hover:text-white' : 'text-[#e1e1f5]/70 group-hover:text-white'}`}>
                                                     {match.journee}
                                                     {!match.isIdF && <span className="ml-3 text-[10px] bg-white/5 text-[#e1e1f5]/50 px-2 py-1 rounded">HORS IDF</span>}

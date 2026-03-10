@@ -1465,5 +1465,23 @@
     "lng": 2.131228,
     "city": "Le Vésinet",
     "postcode": "78110"
+  },
+  "TC SAINT-SAULVE": {
+    "lat": 50.376565,
+    "lng": 3.561715,
+    "city": "Saint-Saulve",
+    "postcode": "59880"
+  },
+  "LESIGNY USC": {
+    "lat": 46.145964,
+    "lng": 0.660097,
+    "city": "Availles-Limouzine",
+    "postcode": "86460"
+  },
+  "CLUB TENNIS BEAUCOURTOIS": {
+    "lat": 48.754294,
+    "lng": 2.222606,
+    "city": "Bièvres",
+    "postcode": "91570"
   }
 }

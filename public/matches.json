@@ -14,7 +14,8 @@
       "lng": 6.194891,
       "city": "Metz",
       "postcode": "57000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -31,7 +32,8 @@
       "lng": 2.2354,
       "city": "Meudon",
       "postcode": "92190"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -48,7 +50,8 @@
       "lng": 5.724369,
       "city": "Grenoble",
       "postcode": "38000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -65,7 +68,8 @@
       "lng": 2.496118,
       "city": "Saint-Germain-lès-Corbeil",
       "postcode": "91250"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -82,7 +86,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -99,7 +104,8 @@
       "lng": 5.964169,
       "city": "Toulon",
       "postcode": "83000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -116,7 +122,8 @@
       "lng": 6.194891,
       "city": "Metz",
       "postcode": "57000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -133,7 +140,8 @@
       "lng": 5.964169,
       "city": "Toulon",
       "postcode": "83000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -150,7 +158,8 @@
       "lng": 5.724369,
       "city": "Grenoble",
       "postcode": "38000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -167,7 +176,8 @@
       "lng": 2.2354,
       "city": "Meudon",
       "postcode": "92190"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -184,7 +194,8 @@
       "lng": 5.724369,
       "city": "Grenoble",
       "postcode": "38000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -201,7 +212,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -218,7 +230,8 @@
       "lng": 6.194891,
       "city": "Metz",
       "postcode": "57000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -235,7 +248,8 @@
       "lng": 5.964169,
       "city": "Toulon",
       "postcode": "83000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -252,7 +266,8 @@
       "lng": 2.496118,
       "city": "Saint-Germain-lès-Corbeil",
       "postcode": "91250"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -269,7 +284,8 @@
       "lng": 1.32962,
       "city": "Colomiers",
       "postcode": "31770"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -286,7 +302,8 @@
       "lng": 1.081654,
       "city": "Mont-Saint-Aignan",
       "postcode": "76130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -303,7 +320,8 @@
       "lng": 7.004585,
       "city": "Cannes",
       "postcode": "06150"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -320,7 +338,8 @@
       "lng": 5.59243,
       "city": "Voiron",
       "postcode": "38500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -337,7 +356,8 @@
       "lng": 2.531796,
       "city": "Hazebrouck",
       "postcode": "59190"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -354,7 +374,8 @@
       "lng": 2.382412,
       "city": "Sarcelles",
       "postcode": "95200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -371,7 +392,8 @@
       "lng": 1.32962,
       "city": "Colomiers",
       "postcode": "31770"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -388,7 +410,8 @@
       "lng": 2.382412,
       "city": "Sarcelles",
       "postcode": "95200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -405,7 +428,8 @@
       "lng": 7.004585,
       "city": "Cannes",
       "postcode": "06150"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -422,7 +446,8 @@
       "lng": 1.081654,
       "city": "Mont-Saint-Aignan",
       "postcode": "76130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -439,7 +464,8 @@
       "lng": 7.004585,
       "city": "Cannes",
       "postcode": "06150"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -456,7 +482,8 @@
       "lng": 2.531796,
       "city": "Hazebrouck",
       "postcode": "59190"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -473,7 +500,8 @@
       "lng": 1.32962,
       "city": "Colomiers",
       "postcode": "31770"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -490,7 +518,8 @@
       "lng": 2.382412,
       "city": "Sarcelles",
       "postcode": "95200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -507,7 +536,8 @@
       "lng": 5.59243,
       "city": "Voiron",
       "postcode": "38500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -524,7 +554,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -541,7 +572,8 @@
       "lng": 2.4842,
       "city": "Nogent-sur-Marne",
       "postcode": "94130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -558,7 +590,8 @@
       "lng": 7.480047,
       "city": "Roquebrune-Cap-Martin",
       "postcode": "06190"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -575,7 +608,8 @@
       "lng": 2.236147,
       "city": "Boulogne-Billancourt",
       "postcode": "92100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -592,7 +626,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -609,7 +644,8 @@
       "lng": 7.790385,
       "city": "Strasbourg",
       "postcode": "67000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -626,7 +662,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -643,7 +680,8 @@
       "lng": 7.790385,
       "city": "Strasbourg",
       "postcode": "67000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -660,7 +698,8 @@
       "lng": 7.480047,
       "city": "Roquebrune-Cap-Martin",
       "postcode": "06190"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -677,7 +716,8 @@
       "lng": 2.4842,
       "city": "Nogent-sur-Marne",
       "postcode": "94130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -694,7 +734,8 @@
       "lng": 7.480047,
       "city": "Roquebrune-Cap-Martin",
       "postcode": "06190"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -711,7 +752,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -728,7 +770,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -745,7 +788,8 @@
       "lng": 7.790385,
       "city": "Strasbourg",
       "postcode": "67000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -762,7 +806,8 @@
       "lng": 2.236147,
       "city": "Boulogne-Billancourt",
       "postcode": "92100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -779,7 +824,8 @@
       "lng": 1.58576,
       "city": "Le Touquet-Paris-Plage",
       "postcode": "62520"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -796,7 +842,8 @@
       "lng": -61.004454,
       "city": "Le Lamentin",
       "postcode": "97232"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -813,7 +860,8 @@
       "lng": 1.461375,
       "city": "Toulouse",
       "postcode": "31400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -830,7 +878,8 @@
       "lng": 1.946353,
       "city": "Plaisir",
       "postcode": "78370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -847,7 +896,8 @@
       "lng": 1.461375,
       "city": "Toulouse",
       "postcode": "31400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -864,7 +914,8 @@
       "lng": 1.58576,
       "city": "Le Touquet-Paris-Plage",
       "postcode": "62520"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -881,7 +932,8 @@
       "lng": 1.946353,
       "city": "Plaisir",
       "postcode": "78370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -898,7 +950,8 @@
       "lng": 4.957523,
       "city": "Istres",
       "postcode": "13118"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -915,7 +968,8 @@
       "lng": 6.122269,
       "city": "Annecy",
       "postcode": "74370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -932,7 +986,8 @@
       "lng": 6.122269,
       "city": "Annecy",
       "postcode": "74370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -949,7 +1004,8 @@
       "lng": 1.461375,
       "city": "Toulouse",
       "postcode": "31400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -966,7 +1022,8 @@
       "lng": -61.004454,
       "city": "Le Lamentin",
       "postcode": "97232"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -983,7 +1040,8 @@
       "lng": 1.946353,
       "city": "Plaisir",
       "postcode": "78370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -1000,7 +1058,8 @@
       "lng": 1.58576,
       "city": "Le Touquet-Paris-Plage",
       "postcode": "62520"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 1",
@@ -1017,7 +1076,8 @@
       "lng": 4.957523,
       "city": "Istres",
       "postcode": "13118"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1034,7 +1094,8 @@
       "lng": 2.40782,
       "city": "La Courneuve",
       "postcode": "93120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1051,7 +1112,8 @@
       "lng": 2.330289,
       "city": "Montrouge",
       "postcode": "92120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1068,7 +1130,8 @@
       "lng": 4.057848,
       "city": "Gueugnon",
       "postcode": "71130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1085,7 +1148,8 @@
       "lng": 7.313788,
       "city": "Mulhouse",
       "postcode": "68200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1102,7 +1166,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1119,7 +1184,8 @@
       "lng": 2.40782,
       "city": "La Courneuve",
       "postcode": "93120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1136,7 +1202,8 @@
       "lng": 7.313788,
       "city": "Mulhouse",
       "postcode": "68200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1153,7 +1220,8 @@
       "lng": 3.120725,
       "city": "La Ferté-sous-Jouarre",
       "postcode": "77260"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1170,7 +1238,8 @@
       "lng": 4.057848,
       "city": "Gueugnon",
       "postcode": "71130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1187,7 +1256,8 @@
       "lng": 2.330289,
       "city": "Montrouge",
       "postcode": "92120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1204,7 +1274,8 @@
       "lng": 4.057848,
       "city": "Gueugnon",
       "postcode": "71130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1221,7 +1292,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1238,7 +1310,8 @@
       "lng": 7.313788,
       "city": "Mulhouse",
       "postcode": "68200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1255,7 +1328,8 @@
       "lng": 2.40782,
       "city": "La Courneuve",
       "postcode": "93120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1272,7 +1346,8 @@
       "lng": 3.120725,
       "city": "La Ferté-sous-Jouarre",
       "postcode": "77260"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1289,7 +1364,8 @@
       "lng": 0.783086,
       "city": "Boulazac Isle Manoire",
       "postcode": "24330"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1306,7 +1382,8 @@
       "lng": -0.172368,
       "city": "Le Houga",
       "postcode": "32460"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1323,7 +1400,8 @@
       "lng": 7.224939,
       "city": "Nice",
       "postcode": "06200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1340,7 +1418,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1357,7 +1436,8 @@
       "lng": 2.371236,
       "city": "Thiais",
       "postcode": "94320"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1374,7 +1454,8 @@
       "lng": 2.148267,
       "city": "Chatou",
       "postcode": "78400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1391,7 +1472,8 @@
       "lng": 0.783086,
       "city": "Boulazac Isle Manoire",
       "postcode": "24330"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1408,7 +1490,8 @@
       "lng": 2.148267,
       "city": "Chatou",
       "postcode": "78400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1425,7 +1508,8 @@
       "lng": 7.224939,
       "city": "Nice",
       "postcode": "06200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1442,7 +1526,8 @@
       "lng": -0.172368,
       "city": "Le Houga",
       "postcode": "32460"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1459,7 +1544,8 @@
       "lng": 7.224939,
       "city": "Nice",
       "postcode": "06200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1476,7 +1562,8 @@
       "lng": 2.371236,
       "city": "Thiais",
       "postcode": "94320"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1493,7 +1580,8 @@
       "lng": 0.783086,
       "city": "Boulazac Isle Manoire",
       "postcode": "24330"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1510,7 +1598,8 @@
       "lng": 2.148267,
       "city": "Chatou",
       "postcode": "78400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1527,7 +1616,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1544,7 +1634,8 @@
       "lng": 1.606115,
       "city": "Sainte-Féréole",
       "postcode": "19270"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1561,7 +1652,8 @@
       "lng": 2.267996,
       "city": "Courbevoie",
       "postcode": "92400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1578,7 +1670,8 @@
       "lng": -1.109718,
       "city": "Ombrée d'Anjou",
       "postcode": "49420"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1595,7 +1688,8 @@
       "lng": 5.879061,
       "city": "Jarny",
       "postcode": "54800"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1612,7 +1706,8 @@
       "lng": 2.5323,
       "city": "Villepinte",
       "postcode": "93420"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1629,7 +1724,8 @@
       "lng": -0.337466,
       "city": "Saint-Germain-du-Puch",
       "postcode": "33750"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1646,7 +1742,8 @@
       "lng": 1.606115,
       "city": "Sainte-Féréole",
       "postcode": "19270"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1663,7 +1760,8 @@
       "lng": -0.337466,
       "city": "Saint-Germain-du-Puch",
       "postcode": "33750"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1680,7 +1778,8 @@
       "lng": -1.109718,
       "city": "Ombrée d'Anjou",
       "postcode": "49420"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1697,7 +1796,8 @@
       "lng": 2.267996,
       "city": "Courbevoie",
       "postcode": "92400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1714,7 +1814,8 @@
       "lng": -1.109718,
       "city": "Ombrée d'Anjou",
       "postcode": "49420"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1731,7 +1832,8 @@
       "lng": 2.5323,
       "city": "Villepinte",
       "postcode": "93420"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1748,7 +1850,8 @@
       "lng": 1.606115,
       "city": "Sainte-Féréole",
       "postcode": "19270"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1765,7 +1868,8 @@
       "lng": -0.337466,
       "city": "Saint-Germain-du-Puch",
       "postcode": "33750"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1782,7 +1886,8 @@
       "lng": 5.879061,
       "city": "Jarny",
       "postcode": "54800"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1799,7 +1904,8 @@
       "lng": 4.075149,
       "city": "Troyes",
       "postcode": "10000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1816,7 +1922,8 @@
       "lng": -0.092782,
       "city": "Saumur",
       "postcode": "49400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1833,7 +1940,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1850,7 +1958,8 @@
       "lng": 2.385943,
       "city": "Paris",
       "postcode": "75019"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1867,7 +1976,8 @@
       "lng": -1.466564,
       "city": "Bayonne",
       "postcode": "64100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1884,7 +1994,8 @@
       "lng": 4.724852,
       "city": "Arles",
       "postcode": "13280"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1901,7 +2012,8 @@
       "lng": 4.075149,
       "city": "Troyes",
       "postcode": "10000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1918,7 +2030,8 @@
       "lng": 4.724852,
       "city": "Arles",
       "postcode": "13280"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1935,7 +2048,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1952,7 +2066,8 @@
       "lng": -0.092782,
       "city": "Saumur",
       "postcode": "49400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1969,7 +2084,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -1986,7 +2102,8 @@
       "lng": -1.466564,
       "city": "Bayonne",
       "postcode": "64100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2003,7 +2120,8 @@
       "lng": 4.075149,
       "city": "Troyes",
       "postcode": "10000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2020,7 +2138,8 @@
       "lng": 4.724852,
       "city": "Arles",
       "postcode": "13280"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2037,7 +2156,8 @@
       "lng": 2.385943,
       "city": "Paris",
       "postcode": "75019"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2054,7 +2174,8 @@
       "lng": 1.905139,
       "city": "Fleury-les-Aubrais",
       "postcode": "45400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2071,7 +2192,8 @@
       "lng": 2.314686,
       "city": "Montmorency",
       "postcode": "95160"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2088,7 +2210,8 @@
       "lng": 2.347,
       "city": "Paris",
       "postcode": "75001"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2105,7 +2228,8 @@
       "lng": 3.072421,
       "city": "Douai",
       "postcode": "59500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2122,7 +2246,8 @@
       "lng": 1.523869,
       "city": "Brive-la-Gaillarde",
       "postcode": "19100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2139,7 +2264,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2156,7 +2282,8 @@
       "lng": 1.905139,
       "city": "Fleury-les-Aubrais",
       "postcode": "45400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2173,7 +2300,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2190,7 +2318,8 @@
       "lng": 2.347,
       "city": "Paris",
       "postcode": "75001"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2207,7 +2336,8 @@
       "lng": 2.314686,
       "city": "Montmorency",
       "postcode": "95160"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2224,7 +2354,8 @@
       "lng": 2.347,
       "city": "Paris",
       "postcode": "75001"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2241,7 +2372,8 @@
       "lng": 1.523869,
       "city": "Brive-la-Gaillarde",
       "postcode": "19100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2258,7 +2390,8 @@
       "lng": 1.905139,
       "city": "Fleury-les-Aubrais",
       "postcode": "45400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2275,7 +2408,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2292,7 +2426,8 @@
       "lng": 3.072421,
       "city": "Douai",
       "postcode": "59500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2309,7 +2444,8 @@
       "lng": 2.180455,
       "city": "Rueil-Malmaison",
       "postcode": "92500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2326,7 +2462,8 @@
       "lng": 7.704845,
       "city": "Ostwald",
       "postcode": "67540"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2343,7 +2480,8 @@
       "lng": 3.479141,
       "city": "Trith-Saint-Léger",
       "postcode": "59125"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2360,7 +2498,8 @@
       "lng": 2.1645,
       "city": "La Faisanderie",
       "postcode": "92430"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2377,7 +2516,8 @@
       "lng": 3.738501,
       "city": "Murviel-lès-Montpellier",
       "postcode": "34570"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2394,7 +2534,8 @@
       "lng": 5.035677,
       "city": "Cavaillon",
       "postcode": "84300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2411,7 +2552,8 @@
       "lng": 2.180455,
       "city": "Rueil-Malmaison",
       "postcode": "92500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2428,7 +2570,8 @@
       "lng": 5.035677,
       "city": "Cavaillon",
       "postcode": "84300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2445,7 +2588,8 @@
       "lng": 3.479141,
       "city": "Trith-Saint-Léger",
       "postcode": "59125"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2462,7 +2606,8 @@
       "lng": 7.704845,
       "city": "Ostwald",
       "postcode": "67540"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2479,7 +2624,8 @@
       "lng": 3.479141,
       "city": "Trith-Saint-Léger",
       "postcode": "59125"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2496,7 +2642,8 @@
       "lng": 3.738501,
       "city": "Murviel-lès-Montpellier",
       "postcode": "34570"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2513,7 +2660,8 @@
       "lng": 2.180455,
       "city": "Rueil-Malmaison",
       "postcode": "92500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2530,7 +2678,8 @@
       "lng": 5.035677,
       "city": "Cavaillon",
       "postcode": "84300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2547,7 +2696,8 @@
       "lng": 2.1645,
       "city": "La Faisanderie",
       "postcode": "92430"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2564,7 +2714,8 @@
       "lng": 2.340683,
       "city": "Paris",
       "postcode": "75006"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2581,7 +2732,8 @@
       "lng": 1.4979,
       "city": "L'Union",
       "postcode": "31240"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2598,7 +2750,8 @@
       "lng": 2.677872,
       "city": "Claye-Souilly",
       "postcode": "77410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2615,7 +2768,8 @@
       "lng": 2.528548,
       "city": "Champigny-sur-Marne",
       "postcode": "94500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2632,7 +2786,8 @@
       "lng": 3.104367,
       "city": "Clermont-Ferrand",
       "postcode": "63100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2649,7 +2804,8 @@
       "lng": 2.340683,
       "city": "Paris",
       "postcode": "75006"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2666,7 +2822,8 @@
       "lng": 2.528548,
       "city": "Champigny-sur-Marne",
       "postcode": "94500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2683,7 +2840,8 @@
       "lng": 2.267794,
       "city": "Eaubonne",
       "postcode": "95600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2700,7 +2858,8 @@
       "lng": 2.677872,
       "city": "Claye-Souilly",
       "postcode": "77410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2717,7 +2876,8 @@
       "lng": 1.4979,
       "city": "L'Union",
       "postcode": "31240"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2734,7 +2894,8 @@
       "lng": 2.677872,
       "city": "Claye-Souilly",
       "postcode": "77410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2751,7 +2912,8 @@
       "lng": 3.104367,
       "city": "Clermont-Ferrand",
       "postcode": "63100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2768,7 +2930,8 @@
       "lng": 2.528548,
       "city": "Champigny-sur-Marne",
       "postcode": "94500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2785,7 +2948,8 @@
       "lng": 2.340683,
       "city": "Paris",
       "postcode": "75006"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2802,7 +2966,8 @@
       "lng": 2.267794,
       "city": "Eaubonne",
       "postcode": "95600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2819,7 +2984,8 @@
       "lng": -1.131529,
       "city": "La Teste-de-Buch",
       "postcode": "33260"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2836,7 +3002,8 @@
       "lng": 2.3295,
       "city": "Paris",
       "postcode": "75018"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2853,7 +3020,8 @@
       "lng": 2.093619,
       "city": "Saint-Germain-en-Laye",
       "postcode": "78100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2870,7 +3038,8 @@
       "lng": 2.715779,
       "city": "Bussy-Saint-Georges",
       "postcode": "77600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2887,7 +3056,8 @@
       "lng": 4.099803,
       "city": "Alès",
       "postcode": "30100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2904,7 +3074,8 @@
       "lng": 6.238493,
       "city": "Cattenom",
       "postcode": "57570"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2921,7 +3092,8 @@
       "lng": -1.131529,
       "city": "La Teste-de-Buch",
       "postcode": "33260"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2938,7 +3110,8 @@
       "lng": 6.238493,
       "city": "Cattenom",
       "postcode": "57570"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2955,7 +3128,8 @@
       "lng": 2.093619,
       "city": "Saint-Germain-en-Laye",
       "postcode": "78100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2972,7 +3146,8 @@
       "lng": 2.3295,
       "city": "Paris",
       "postcode": "75018"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -2989,7 +3164,8 @@
       "lng": 2.093619,
       "city": "Saint-Germain-en-Laye",
       "postcode": "78100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -3006,7 +3182,8 @@
       "lng": 4.099803,
       "city": "Alès",
       "postcode": "30100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -3023,7 +3200,8 @@
       "lng": -1.131529,
       "city": "La Teste-de-Buch",
       "postcode": "33260"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -3040,7 +3218,8 @@
       "lng": 6.238493,
       "city": "Cattenom",
       "postcode": "57570"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 2",
@@ -3057,7 +3236,8 @@
       "lng": 2.715779,
       "city": "Bussy-Saint-Georges",
       "postcode": "77600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3074,7 +3254,8 @@
       "lng": 0.35668,
       "city": "Poitiers",
       "postcode": "86000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3091,7 +3272,8 @@
       "lng": 0.729571,
       "city": "Louvetot",
       "postcode": "76490"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3108,7 +3290,8 @@
       "lng": 2.542133,
       "city": "Sucy-en-Brie",
       "postcode": "94370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3125,7 +3308,8 @@
       "lng": -3.892761,
       "city": "Concarneau",
       "postcode": "29900"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3142,7 +3326,8 @@
       "lng": -1.446893,
       "city": "Loix",
       "postcode": "17111"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3159,7 +3344,8 @@
       "lng": 2.347,
       "city": "Paris",
       "postcode": "75001"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3176,7 +3362,8 @@
       "lng": 0.35668,
       "city": "Poitiers",
       "postcode": "86000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3193,7 +3380,8 @@
       "lng": 2.347,
       "city": "Paris",
       "postcode": "75001"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3210,7 +3398,8 @@
       "lng": 2.542133,
       "city": "Sucy-en-Brie",
       "postcode": "94370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3227,7 +3416,8 @@
       "lng": 0.729571,
       "city": "Louvetot",
       "postcode": "76490"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3244,7 +3434,8 @@
       "lng": 2.542133,
       "city": "Sucy-en-Brie",
       "postcode": "94370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3261,7 +3452,8 @@
       "lng": -1.446893,
       "city": "Loix",
       "postcode": "17111"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3278,7 +3470,8 @@
       "lng": 0.35668,
       "city": "Poitiers",
       "postcode": "86000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3295,7 +3488,8 @@
       "lng": 2.347,
       "city": "Paris",
       "postcode": "75001"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3312,7 +3506,8 @@
       "lng": -3.892761,
       "city": "Concarneau",
       "postcode": "29900"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3329,7 +3524,8 @@
       "lng": 0.203407,
       "city": "Valence-en-Poitou",
       "postcode": "86700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3346,7 +3542,8 @@
       "lng": 2.795044,
       "city": "Coupvray",
       "postcode": "77700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3363,7 +3560,8 @@
       "lng": 5.033601,
       "city": "Dijon",
       "postcode": "21000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3380,7 +3578,8 @@
       "lng": 7.150354,
       "city": "Cagnes-sur-Mer",
       "postcode": "06800"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3397,7 +3596,8 @@
       "lng": 5.460695,
       "city": "Plan-de-Cuques",
       "postcode": "13380"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3414,7 +3614,8 @@
       "lng": 6.16856,
       "city": "Annecy",
       "postcode": "74940"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3431,7 +3632,8 @@
       "lng": 0.203407,
       "city": "Valence-en-Poitou",
       "postcode": "86700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3448,7 +3650,8 @@
       "lng": 6.16856,
       "city": "Annecy",
       "postcode": "74940"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3465,7 +3668,8 @@
       "lng": 5.033601,
       "city": "Dijon",
       "postcode": "21000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3482,7 +3686,8 @@
       "lng": 2.795044,
       "city": "Coupvray",
       "postcode": "77700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3499,7 +3704,8 @@
       "lng": 5.033601,
       "city": "Dijon",
       "postcode": "21000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3516,7 +3722,8 @@
       "lng": 5.460695,
       "city": "Plan-de-Cuques",
       "postcode": "13380"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3533,7 +3740,8 @@
       "lng": 0.203407,
       "city": "Valence-en-Poitou",
       "postcode": "86700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3550,7 +3758,8 @@
       "lng": 6.16856,
       "city": "Annecy",
       "postcode": "74940"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3567,7 +3776,8 @@
       "lng": 7.150354,
       "city": "Cagnes-sur-Mer",
       "postcode": "06800"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3584,7 +3794,8 @@
       "lng": -0.606056,
       "city": "Chemillé-en-Anjou",
       "postcode": "49310"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3601,7 +3812,8 @@
       "lng": 5.235965,
       "city": "Rognac",
       "postcode": "13340"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3618,7 +3830,8 @@
       "lng": 7.790385,
       "city": "Strasbourg",
       "postcode": "67000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3635,7 +3848,8 @@
       "lng": 2.554288,
       "city": "Seine-Port",
       "postcode": "77240"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3652,7 +3866,8 @@
       "lng": 2.130461,
       "city": "Le Chesnay-Rocquencourt",
       "postcode": "78150"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3669,7 +3884,8 @@
       "lng": 4.708441,
       "city": "Pierrelatte",
       "postcode": "26700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3686,7 +3902,8 @@
       "lng": -0.606056,
       "city": "Chemillé-en-Anjou",
       "postcode": "49310"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3703,7 +3920,8 @@
       "lng": 4.708441,
       "city": "Pierrelatte",
       "postcode": "26700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3720,7 +3938,8 @@
       "lng": 7.790385,
       "city": "Strasbourg",
       "postcode": "67000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3737,7 +3956,8 @@
       "lng": 5.235965,
       "city": "Rognac",
       "postcode": "13340"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3754,7 +3974,8 @@
       "lng": 7.790385,
       "city": "Strasbourg",
       "postcode": "67000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3771,7 +3992,8 @@
       "lng": 2.130461,
       "city": "Le Chesnay-Rocquencourt",
       "postcode": "78150"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3788,7 +4010,8 @@
       "lng": -0.606056,
       "city": "Chemillé-en-Anjou",
       "postcode": "49310"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3805,7 +4028,8 @@
       "lng": 4.708441,
       "city": "Pierrelatte",
       "postcode": "26700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3822,7 +4046,8 @@
       "lng": 2.554288,
       "city": "Seine-Port",
       "postcode": "77240"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3839,7 +4064,8 @@
       "lng": 7.36973,
       "city": "Riedisheim",
       "postcode": "68400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3856,7 +4082,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3873,7 +4100,8 @@
       "lng": 6.986279,
       "city": "Mouans-Sartoux",
       "postcode": "06370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3890,7 +4118,8 @@
       "lng": 6.093707,
       "city": "Saint-Julien-en-Genevois",
       "postcode": "74160"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3907,7 +4136,8 @@
       "lng": 2.5701,
       "city": "Tremblay-en-France",
       "postcode": "93290"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3924,7 +4154,8 @@
       "lng": 1.946353,
       "city": "Plaisir",
       "postcode": "78370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3941,7 +4172,8 @@
       "lng": 7.36973,
       "city": "Riedisheim",
       "postcode": "68400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3958,7 +4190,8 @@
       "lng": 1.946353,
       "city": "Plaisir",
       "postcode": "78370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3975,7 +4208,8 @@
       "lng": 6.986279,
       "city": "Mouans-Sartoux",
       "postcode": "06370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -3992,7 +4226,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4009,7 +4244,8 @@
       "lng": 6.986279,
       "city": "Mouans-Sartoux",
       "postcode": "06370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4026,7 +4262,8 @@
       "lng": 2.5701,
       "city": "Tremblay-en-France",
       "postcode": "93290"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4043,7 +4280,8 @@
       "lng": 7.36973,
       "city": "Riedisheim",
       "postcode": "68400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4060,7 +4298,8 @@
       "lng": 1.946353,
       "city": "Plaisir",
       "postcode": "78370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4077,7 +4316,8 @@
       "lng": 6.093707,
       "city": "Saint-Julien-en-Genevois",
       "postcode": "74160"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4094,7 +4334,8 @@
       "lng": 1.494041,
       "city": "Castanet-Tolosan",
       "postcode": "31320"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4111,7 +4352,8 @@
       "lng": 5.935905,
       "city": "Toulon",
       "postcode": "83000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4128,7 +4370,8 @@
       "lng": 0.783086,
       "city": "Boulazac Isle Manoire",
       "postcode": "24330"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4145,7 +4388,8 @@
       "lng": -0.3279,
       "city": "Saint-Germain-de-la-Rivière",
       "postcode": "33240"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4162,7 +4406,8 @@
       "lng": 6.459524,
       "city": "Allinges",
       "postcode": "74200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4179,7 +4424,8 @@
       "lng": 5.246294,
       "city": "Lambesc",
       "postcode": "13410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4196,7 +4442,8 @@
       "lng": 1.494041,
       "city": "Castanet-Tolosan",
       "postcode": "31320"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4213,7 +4460,8 @@
       "lng": 5.246294,
       "city": "Lambesc",
       "postcode": "13410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4230,7 +4478,8 @@
       "lng": 0.783086,
       "city": "Boulazac Isle Manoire",
       "postcode": "24330"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4247,7 +4496,8 @@
       "lng": 5.935905,
       "city": "Toulon",
       "postcode": "83000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4264,7 +4514,8 @@
       "lng": 0.783086,
       "city": "Boulazac Isle Manoire",
       "postcode": "24330"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4281,7 +4532,8 @@
       "lng": 6.459524,
       "city": "Allinges",
       "postcode": "74200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4298,7 +4550,8 @@
       "lng": 1.494041,
       "city": "Castanet-Tolosan",
       "postcode": "31320"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4315,7 +4568,8 @@
       "lng": 5.246294,
       "city": "Lambesc",
       "postcode": "13410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4332,7 +4586,8 @@
       "lng": -0.3279,
       "city": "Saint-Germain-de-la-Rivière",
       "postcode": "33240"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4349,7 +4604,8 @@
       "lng": 3.247807,
       "city": "Issoire",
       "postcode": "63500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4366,7 +4622,8 @@
       "lng": 7.004585,
       "city": "Cannes",
       "postcode": "06150"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4383,7 +4640,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4400,7 +4658,8 @@
       "lng": 6.754672,
       "city": "Fréjus",
       "postcode": "83600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4417,7 +4676,8 @@
       "lng": 2.246232,
       "city": "Issy-les-Moulineaux",
       "postcode": "92130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4434,7 +4694,8 @@
       "lng": 2.257404,
       "city": "Ermont",
       "postcode": "95120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4451,7 +4712,8 @@
       "lng": 3.247807,
       "city": "Issoire",
       "postcode": "63500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4468,7 +4730,8 @@
       "lng": 2.257404,
       "city": "Ermont",
       "postcode": "95120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4485,7 +4748,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4502,7 +4766,8 @@
       "lng": 7.004585,
       "city": "Cannes",
       "postcode": "06150"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4519,7 +4784,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4536,7 +4802,8 @@
       "lng": 2.246232,
       "city": "Issy-les-Moulineaux",
       "postcode": "92130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4553,7 +4820,8 @@
       "lng": 3.247807,
       "city": "Issoire",
       "postcode": "63500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4570,7 +4838,8 @@
       "lng": 2.257404,
       "city": "Ermont",
       "postcode": "95120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4587,7 +4856,8 @@
       "lng": 6.754672,
       "city": "Fréjus",
       "postcode": "83600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4604,7 +4874,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4621,7 +4892,8 @@
       "lng": 2.188292,
       "city": "Garches",
       "postcode": "92380"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4638,7 +4910,8 @@
       "lng": -0.599658,
       "city": "Le Bouscat",
       "postcode": "33110"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4655,7 +4928,8 @@
       "lng": 2.487541,
       "city": "Fontenay-sous-Bois",
       "postcode": "94120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4672,7 +4946,8 @@
       "lng": -1.52446,
       "city": "Nantes",
       "postcode": "44300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4689,7 +4964,8 @@
       "lng": -0.37193,
       "city": "Caen",
       "postcode": "14000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4706,7 +4982,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4723,7 +5000,8 @@
       "lng": -0.37193,
       "city": "Caen",
       "postcode": "14000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4740,7 +5018,8 @@
       "lng": -0.599658,
       "city": "Le Bouscat",
       "postcode": "33110"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4757,7 +5036,8 @@
       "lng": 2.188292,
       "city": "Garches",
       "postcode": "92380"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4774,7 +5054,8 @@
       "lng": -0.599658,
       "city": "Le Bouscat",
       "postcode": "33110"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4791,7 +5072,8 @@
       "lng": -1.52446,
       "city": "Nantes",
       "postcode": "44300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4808,7 +5090,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4825,7 +5108,8 @@
       "lng": -0.37193,
       "city": "Caen",
       "postcode": "14000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4842,7 +5126,8 @@
       "lng": 2.487541,
       "city": "Fontenay-sous-Bois",
       "postcode": "94120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4859,7 +5144,8 @@
       "lng": 2.7747,
       "city": "Fontainebleau",
       "postcode": "77300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4876,7 +5162,8 @@
       "lng": 7.732217,
       "city": "Souffelweyersheim",
       "postcode": "67460"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4893,7 +5180,8 @@
       "lng": 2.457832,
       "city": "Le Blanc-Mesnil",
       "postcode": "93150"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4910,7 +5198,8 @@
       "lng": 3.566535,
       "city": "Villenauxe-la-Grande",
       "postcode": "10370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4927,7 +5216,8 @@
       "lng": 2.222606,
       "city": "Bièvres",
       "postcode": "91570"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4944,7 +5234,8 @@
       "lng": 3.510438,
       "city": "Valenciennes",
       "postcode": "59300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4961,7 +5252,8 @@
       "lng": 2.7747,
       "city": "Fontainebleau",
       "postcode": "77300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4978,7 +5270,8 @@
       "lng": 3.510438,
       "city": "Valenciennes",
       "postcode": "59300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -4995,7 +5288,8 @@
       "lng": 2.457832,
       "city": "Le Blanc-Mesnil",
       "postcode": "93150"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5012,7 +5306,8 @@
       "lng": 7.732217,
       "city": "Souffelweyersheim",
       "postcode": "67460"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5029,7 +5324,8 @@
       "lng": 2.457832,
       "city": "Le Blanc-Mesnil",
       "postcode": "93150"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5046,7 +5342,8 @@
       "lng": 2.222606,
       "city": "Bièvres",
       "postcode": "91570"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5063,7 +5360,8 @@
       "lng": 2.7747,
       "city": "Fontainebleau",
       "postcode": "77300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5080,7 +5378,8 @@
       "lng": 3.510438,
       "city": "Valenciennes",
       "postcode": "59300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5097,7 +5396,8 @@
       "lng": 3.566535,
       "city": "Villenauxe-la-Grande",
       "postcode": "10370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5114,7 +5414,8 @@
       "lng": 1.461375,
       "city": "Toulouse",
       "postcode": "31400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5131,7 +5432,8 @@
       "lng": 0.631041,
       "city": "Agen",
       "postcode": "47000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5148,7 +5450,8 @@
       "lng": 4.783712,
       "city": "Les Angles",
       "postcode": "30133"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5159,7 +5462,8 @@
     "titles": [
       "Rencontre DAX US 1 / STADE TOULOUSAIN TENNIS PADEL 2 du 03/05/2026"
     ],
-    "isIdF": false
+    "isIdF": false,
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5176,7 +5480,8 @@
       "lng": 4.932411,
       "city": "Entraigues-sur-la-Sorgue",
       "postcode": "84320"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5193,7 +5498,8 @@
       "lng": 5.431202,
       "city": "Aix-en-Provence",
       "postcode": "13090"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5210,7 +5516,8 @@
       "lng": 1.461375,
       "city": "Toulouse",
       "postcode": "31400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5227,7 +5534,8 @@
       "lng": 5.431202,
       "city": "Aix-en-Provence",
       "postcode": "13090"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5244,7 +5552,8 @@
       "lng": 4.783712,
       "city": "Les Angles",
       "postcode": "30133"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5261,7 +5570,8 @@
       "lng": 0.631041,
       "city": "Agen",
       "postcode": "47000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5278,7 +5588,8 @@
       "lng": 4.783712,
       "city": "Les Angles",
       "postcode": "30133"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5295,7 +5606,8 @@
       "lng": 4.932411,
       "city": "Entraigues-sur-la-Sorgue",
       "postcode": "84320"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5312,7 +5624,8 @@
       "lng": 1.461375,
       "city": "Toulouse",
       "postcode": "31400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5329,7 +5642,8 @@
       "lng": 5.431202,
       "city": "Aix-en-Provence",
       "postcode": "13090"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5340,7 +5654,8 @@
     "titles": [
       "Rencontre DAX US 1 / AGEN ASPTT 1 du 07/06/2026"
     ],
-    "isIdF": false
+    "isIdF": false,
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5357,7 +5672,8 @@
       "lng": 2.436508,
       "city": "Maisons-Alfort",
       "postcode": "94700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5374,7 +5690,8 @@
       "lng": 0.657551,
       "city": "Joué-lès-Tours",
       "postcode": "37300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5391,7 +5708,8 @@
       "lng": -3.559902,
       "city": "Quimperlé",
       "postcode": "29300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5408,7 +5726,8 @@
       "lng": -1.572151,
       "city": "Saint-Pair-sur-Mer",
       "postcode": "50380"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5425,7 +5744,8 @@
       "lng": -0.569613,
       "city": "Bordeaux",
       "postcode": "33300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5442,7 +5762,8 @@
       "lng": 2.316943,
       "city": "Montrouge",
       "postcode": "92120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5459,7 +5780,8 @@
       "lng": 2.436508,
       "city": "Maisons-Alfort",
       "postcode": "94700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5476,7 +5798,8 @@
       "lng": 2.316943,
       "city": "Montrouge",
       "postcode": "92120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5493,7 +5816,8 @@
       "lng": -3.559902,
       "city": "Quimperlé",
       "postcode": "29300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5510,7 +5834,8 @@
       "lng": 0.657551,
       "city": "Joué-lès-Tours",
       "postcode": "37300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5527,7 +5852,8 @@
       "lng": -3.559902,
       "city": "Quimperlé",
       "postcode": "29300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5544,7 +5870,8 @@
       "lng": -0.569613,
       "city": "Bordeaux",
       "postcode": "33300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5561,7 +5888,8 @@
       "lng": 2.436508,
       "city": "Maisons-Alfort",
       "postcode": "94700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5578,7 +5906,8 @@
       "lng": 2.316943,
       "city": "Montrouge",
       "postcode": "92120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5595,7 +5924,8 @@
       "lng": -1.572151,
       "city": "Saint-Pair-sur-Mer",
       "postcode": "50380"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5612,7 +5942,8 @@
       "lng": 1.081654,
       "city": "Mont-Saint-Aignan",
       "postcode": "76130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5629,7 +5960,8 @@
       "lng": 3.193069,
       "city": "Hem",
       "postcode": "59510"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5646,7 +5978,8 @@
       "lng": 2.406914,
       "city": "Paris",
       "postcode": "75020"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5663,7 +5996,8 @@
       "lng": 0.630173,
       "city": "Saint-Grégoire-du-Vièvre",
       "postcode": "27450"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5680,7 +6014,8 @@
       "lng": 6.194891,
       "city": "Metz",
       "postcode": "57000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5697,7 +6032,8 @@
       "lng": 0.60614,
       "city": "Villaines-la-Gonais",
       "postcode": "72400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5714,7 +6050,8 @@
       "lng": 1.081654,
       "city": "Mont-Saint-Aignan",
       "postcode": "76130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5731,7 +6068,8 @@
       "lng": 0.60614,
       "city": "Villaines-la-Gonais",
       "postcode": "72400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5748,7 +6086,8 @@
       "lng": 2.406914,
       "city": "Paris",
       "postcode": "75020"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5765,7 +6104,8 @@
       "lng": 3.193069,
       "city": "Hem",
       "postcode": "59510"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5782,7 +6122,8 @@
       "lng": 2.406914,
       "city": "Paris",
       "postcode": "75020"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5799,7 +6140,8 @@
       "lng": 6.194891,
       "city": "Metz",
       "postcode": "57000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5816,7 +6158,8 @@
       "lng": 1.081654,
       "city": "Mont-Saint-Aignan",
       "postcode": "76130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5833,7 +6176,8 @@
       "lng": 0.60614,
       "city": "Villaines-la-Gonais",
       "postcode": "72400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5850,7 +6194,8 @@
       "lng": 0.630173,
       "city": "Saint-Grégoire-du-Vièvre",
       "postcode": "27450"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5867,7 +6212,8 @@
       "lng": 2.037211,
       "city": "Chevreuse",
       "postcode": "78460"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5884,7 +6230,8 @@
       "lng": -3.482809,
       "city": "Lannion",
       "postcode": "22300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5901,7 +6248,8 @@
       "lng": 2.2872,
       "city": "Asnières-sur-Seine",
       "postcode": "92600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5918,7 +6266,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5935,7 +6284,8 @@
       "lng": 7.304145,
       "city": "Brunstatt-Didenheim",
       "postcode": "68350"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5952,7 +6302,8 @@
       "lng": 6.204263,
       "city": "Ay-sur-Moselle",
       "postcode": "57300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5969,7 +6320,8 @@
       "lng": 2.037211,
       "city": "Chevreuse",
       "postcode": "78460"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -5986,7 +6338,8 @@
       "lng": 6.204263,
       "city": "Ay-sur-Moselle",
       "postcode": "57300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -6003,7 +6356,8 @@
       "lng": 2.2872,
       "city": "Asnières-sur-Seine",
       "postcode": "92600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -6020,7 +6374,8 @@
       "lng": -3.482809,
       "city": "Lannion",
       "postcode": "22300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -6037,7 +6392,8 @@
       "lng": 2.2872,
       "city": "Asnières-sur-Seine",
       "postcode": "92600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -6054,7 +6410,8 @@
       "lng": 7.304145,
       "city": "Brunstatt-Didenheim",
       "postcode": "68350"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -6071,7 +6428,8 @@
       "lng": 2.037211,
       "city": "Chevreuse",
       "postcode": "78460"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -6088,7 +6446,8 @@
       "lng": 6.204263,
       "city": "Ay-sur-Moselle",
       "postcode": "57300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 3",
@@ -6105,7 +6464,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6122,7 +6482,8 @@
       "lng": 4.882273,
       "city": "Valence",
       "postcode": "26000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6139,7 +6500,8 @@
       "lng": 5.964169,
       "city": "Toulon",
       "postcode": "83000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6156,7 +6518,8 @@
       "lng": 4.364408,
       "city": "Nîmes",
       "postcode": "30900"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6173,7 +6536,8 @@
       "lng": 0.631041,
       "city": "Agen",
       "postcode": "47000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6190,7 +6554,8 @@
       "lng": 3.882276,
       "city": "Montpellier",
       "postcode": "34090"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6207,7 +6572,8 @@
       "lng": 3.078823,
       "city": "Clermont-Ferrand",
       "postcode": "63100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6224,7 +6590,8 @@
       "lng": 4.882273,
       "city": "Valence",
       "postcode": "26000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6241,7 +6608,8 @@
       "lng": 3.078823,
       "city": "Clermont-Ferrand",
       "postcode": "63100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6258,7 +6626,8 @@
       "lng": 4.364408,
       "city": "Nîmes",
       "postcode": "30900"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6275,7 +6644,8 @@
       "lng": 5.964169,
       "city": "Toulon",
       "postcode": "83000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6292,7 +6662,8 @@
       "lng": 4.364408,
       "city": "Nîmes",
       "postcode": "30900"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6309,7 +6680,8 @@
       "lng": 3.882276,
       "city": "Montpellier",
       "postcode": "34090"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6326,7 +6698,8 @@
       "lng": 4.882273,
       "city": "Valence",
       "postcode": "26000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6343,7 +6716,8 @@
       "lng": 3.078823,
       "city": "Clermont-Ferrand",
       "postcode": "63100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6360,7 +6734,8 @@
       "lng": 0.631041,
       "city": "Agen",
       "postcode": "47000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6377,7 +6752,8 @@
       "lng": 1.501609,
       "city": "L'Union",
       "postcode": "31240"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6394,7 +6770,8 @@
       "lng": 4.746553,
       "city": "Craponne",
       "postcode": "69290"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6411,7 +6788,8 @@
       "lng": 5.046335,
       "city": "Romans-sur-Isère",
       "postcode": "26100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6428,7 +6806,8 @@
       "lng": 8.789751,
       "city": "Calvi",
       "postcode": "20260"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6445,7 +6824,8 @@
       "lng": 3.596038,
       "city": "Villeveyrac",
       "postcode": "34560"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6462,7 +6842,8 @@
       "lng": 7.224939,
       "city": "Nice",
       "postcode": "06200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6479,7 +6860,8 @@
       "lng": 1.501609,
       "city": "L'Union",
       "postcode": "31240"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6496,7 +6878,8 @@
       "lng": 7.224939,
       "city": "Nice",
       "postcode": "06200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6513,7 +6896,8 @@
       "lng": 5.046335,
       "city": "Romans-sur-Isère",
       "postcode": "26100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6530,7 +6914,8 @@
       "lng": 4.746553,
       "city": "Craponne",
       "postcode": "69290"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6547,7 +6932,8 @@
       "lng": 5.046335,
       "city": "Romans-sur-Isère",
       "postcode": "26100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6564,7 +6950,8 @@
       "lng": 3.596038,
       "city": "Villeveyrac",
       "postcode": "34560"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6581,7 +6968,8 @@
       "lng": 1.501609,
       "city": "L'Union",
       "postcode": "31240"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6598,7 +6986,8 @@
       "lng": 7.224939,
       "city": "Nice",
       "postcode": "06200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6615,7 +7004,8 @@
       "lng": 8.789751,
       "city": "Calvi",
       "postcode": "20260"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6632,7 +7022,8 @@
       "lng": 3.086194,
       "city": "Ronchin",
       "postcode": "59790"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6649,7 +7040,8 @@
       "lng": 1.607492,
       "city": "Boulogne-sur-Mer",
       "postcode": "62200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6666,7 +7058,8 @@
       "lng": 2.436508,
       "city": "Maisons-Alfort",
       "postcode": "94700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6683,7 +7076,8 @@
       "lng": 2.205161,
       "city": "Cormeilles-en-Parisis",
       "postcode": "95240"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6700,7 +7094,8 @@
       "lng": 6.234886,
       "city": "Basse-Ham",
       "postcode": "57970"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6717,7 +7112,8 @@
       "lng": 7.100567,
       "city": "Thann",
       "postcode": "68800"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6734,7 +7130,8 @@
       "lng": 3.086194,
       "city": "Ronchin",
       "postcode": "59790"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6751,7 +7148,8 @@
       "lng": 7.100567,
       "city": "Thann",
       "postcode": "68800"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6768,7 +7166,8 @@
       "lng": 2.436508,
       "city": "Maisons-Alfort",
       "postcode": "94700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6785,7 +7184,8 @@
       "lng": 1.607492,
       "city": "Boulogne-sur-Mer",
       "postcode": "62200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6802,7 +7202,8 @@
       "lng": 2.436508,
       "city": "Maisons-Alfort",
       "postcode": "94700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6819,7 +7220,8 @@
       "lng": 6.234886,
       "city": "Basse-Ham",
       "postcode": "57970"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6836,7 +7238,8 @@
       "lng": 3.086194,
       "city": "Ronchin",
       "postcode": "59790"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6853,7 +7256,8 @@
       "lng": 7.100567,
       "city": "Thann",
       "postcode": "68800"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6870,7 +7274,8 @@
       "lng": 2.205161,
       "city": "Cormeilles-en-Parisis",
       "postcode": "95240"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6887,7 +7292,8 @@
       "lng": -1.53101,
       "city": "Anglet",
       "postcode": "64600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6904,7 +7310,8 @@
       "lng": -0.549452,
       "city": "Bressuire",
       "postcode": "79300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6921,7 +7328,8 @@
       "lng": -3.391565,
       "city": "Larmor-Plage",
       "postcode": "56260"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6938,7 +7346,8 @@
       "lng": 2.339086,
       "city": "Savigny-sur-Orge",
       "postcode": "91600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6955,7 +7364,8 @@
       "lng": 2.48526,
       "city": "Bondy",
       "postcode": "93140"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6972,7 +7382,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -6989,7 +7400,8 @@
       "lng": -1.53101,
       "city": "Anglet",
       "postcode": "64600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7006,7 +7418,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7023,7 +7436,8 @@
       "lng": -3.391565,
       "city": "Larmor-Plage",
       "postcode": "56260"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7040,7 +7454,8 @@
       "lng": -0.549452,
       "city": "Bressuire",
       "postcode": "79300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7057,7 +7472,8 @@
       "lng": -3.391565,
       "city": "Larmor-Plage",
       "postcode": "56260"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7074,7 +7490,8 @@
       "lng": 2.48526,
       "city": "Bondy",
       "postcode": "93140"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7091,7 +7508,8 @@
       "lng": -1.53101,
       "city": "Anglet",
       "postcode": "64600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7108,7 +7526,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7125,7 +7544,8 @@
       "lng": 2.339086,
       "city": "Savigny-sur-Orge",
       "postcode": "91600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7142,7 +7562,8 @@
       "lng": 7.470625,
       "city": "Obernai",
       "postcode": "67210"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7159,7 +7580,8 @@
       "lng": 4.020465,
       "city": "Guillon-Terre-Plaine",
       "postcode": "89420"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7176,7 +7598,8 @@
       "lng": 4.880697,
       "city": "Rillieux-la-Pape",
       "postcode": "69140"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7193,7 +7616,8 @@
       "lng": 6.940983,
       "city": "Saint-Dié-des-Vosges",
       "postcode": "88100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7210,7 +7634,8 @@
       "lng": 2.418506,
       "city": "La Courneuve",
       "postcode": "93120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7227,7 +7652,8 @@
       "lng": 5.724369,
       "city": "Grenoble",
       "postcode": "38000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7244,7 +7670,8 @@
       "lng": 7.470625,
       "city": "Obernai",
       "postcode": "67210"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7261,7 +7688,8 @@
       "lng": 5.724369,
       "city": "Grenoble",
       "postcode": "38000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7278,7 +7706,8 @@
       "lng": 4.880697,
       "city": "Rillieux-la-Pape",
       "postcode": "69140"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7295,7 +7724,8 @@
       "lng": 4.020465,
       "city": "Guillon-Terre-Plaine",
       "postcode": "89420"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7312,7 +7742,8 @@
       "lng": 4.880697,
       "city": "Rillieux-la-Pape",
       "postcode": "69140"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7329,7 +7760,8 @@
       "lng": 2.418506,
       "city": "La Courneuve",
       "postcode": "93120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7346,7 +7778,8 @@
       "lng": 7.470625,
       "city": "Obernai",
       "postcode": "67210"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7363,7 +7796,8 @@
       "lng": 5.724369,
       "city": "Grenoble",
       "postcode": "38000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7380,7 +7814,8 @@
       "lng": 6.940983,
       "city": "Saint-Dié-des-Vosges",
       "postcode": "88100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7397,7 +7832,8 @@
       "lng": 2.619299,
       "city": "Chelles",
       "postcode": "77500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7414,7 +7850,8 @@
       "lng": -1.092324,
       "city": "Gujan-Mestras",
       "postcode": "33470"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7431,7 +7868,8 @@
       "lng": -1.507664,
       "city": "Carquefou",
       "postcode": "44470"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7448,7 +7886,8 @@
       "lng": 4.683786,
       "city": "Saze",
       "postcode": "30650"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7465,7 +7904,8 @@
       "lng": 0.10963,
       "city": "Séméac",
       "postcode": "65600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7482,7 +7922,8 @@
       "lng": 2.267996,
       "city": "Courbevoie",
       "postcode": "92400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7499,7 +7940,8 @@
       "lng": 2.619299,
       "city": "Chelles",
       "postcode": "77500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7516,7 +7958,8 @@
       "lng": 2.267996,
       "city": "Courbevoie",
       "postcode": "92400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7533,7 +7976,8 @@
       "lng": -1.507664,
       "city": "Carquefou",
       "postcode": "44470"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7550,7 +7994,8 @@
       "lng": -1.092324,
       "city": "Gujan-Mestras",
       "postcode": "33470"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7567,7 +8012,8 @@
       "lng": -1.507664,
       "city": "Carquefou",
       "postcode": "44470"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7584,7 +8030,8 @@
       "lng": 0.10963,
       "city": "Séméac",
       "postcode": "65600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7601,7 +8048,8 @@
       "lng": 2.619299,
       "city": "Chelles",
       "postcode": "77500"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7618,7 +8066,8 @@
       "lng": 2.267996,
       "city": "Courbevoie",
       "postcode": "92400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7635,7 +8084,8 @@
       "lng": 4.683786,
       "city": "Saze",
       "postcode": "30650"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7652,7 +8102,8 @@
       "lng": 6.975089,
       "city": "Grandvillars",
       "postcode": "90600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7669,7 +8120,8 @@
       "lng": 3.151751,
       "city": "Villeneuve-d'Ascq",
       "postcode": "59650"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7686,7 +8138,8 @@
       "lng": 7.710585,
       "city": "Illkirch-Graffenstaden",
       "postcode": "67400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7703,7 +8156,8 @@
       "lng": 2.510629,
       "city": "Villemomble",
       "postcode": "93250"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7720,7 +8174,8 @@
       "lng": 2.226821,
       "city": "Nanterre",
       "postcode": "92000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7737,7 +8192,8 @@
       "lng": 7.048548,
       "city": "Sarreguemines",
       "postcode": "57200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7754,7 +8210,8 @@
       "lng": 6.975089,
       "city": "Grandvillars",
       "postcode": "90600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7771,7 +8228,8 @@
       "lng": 7.048548,
       "city": "Sarreguemines",
       "postcode": "57200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7788,7 +8246,8 @@
       "lng": 7.710585,
       "city": "Illkirch-Graffenstaden",
       "postcode": "67400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7805,7 +8264,8 @@
       "lng": 3.151751,
       "city": "Villeneuve-d'Ascq",
       "postcode": "59650"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7822,7 +8282,8 @@
       "lng": 7.710585,
       "city": "Illkirch-Graffenstaden",
       "postcode": "67400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7839,7 +8300,8 @@
       "lng": 2.226821,
       "city": "Nanterre",
       "postcode": "92000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7856,7 +8318,8 @@
       "lng": 6.975089,
       "city": "Grandvillars",
       "postcode": "90600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7865,7 +8328,8 @@
     "matchUrl": "https://tenup.fft.fr/championnat/82543588/division/135358/phase/218008/poule/496367/rencontre/9495218",
     "rawText": "Nationale 4POULESPOULE GLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux GRANDVILLARS TC 10 TC ILLKIRCH GRAFFENSTADEN 10 SARREGUEMINES AS 10 NANTERRE (ES) 10 TC VILLEMOMBLE SPORTS 20 LA RAQUETTE DE VILLENEUVE D'ASCQ 10 Le calendrier des rencontresJournée 507/06/2026Litige résoluLitige en coursRencontre reportableGRANDVILLARS TC 1_TC ILLKIRCH GRAFFENSTADEN 1_07/06/2026Litige résoluLitige en coursRencontre reportableSARREGUEMINES AS 1_NANTERRE (ES) 1_07/06/2026Litige résoluLitige en coursRencontre reportableTC VILLEMOMBLE SPORTS 2_LA RAQUETTE DE VILLENEUVE D'ASCQ 1_Les équipesGRANDVILLARS TC 1TC ILLKIRCH GRAFFENSTADEN 1SARREGUEMINES AS 1NANTERRE (ES) 1TC VILLEMOMBLE SPORTS 2LA RAQUETTE DE VILLENEUVE D'ASCQ 1",
     "titles": [],
-    "isIdF": false
+    "isIdF": false,
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7874,7 +8338,8 @@
     "matchUrl": "https://tenup.fft.fr/championnat/82543588/division/135358/phase/218008/poule/496367/rencontre/9495224",
     "rawText": "Nationale 4POULESPOULE GLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux GRANDVILLARS TC 10 TC ILLKIRCH GRAFFENSTADEN 10 SARREGUEMINES AS 10 NANTERRE (ES) 10 TC VILLEMOMBLE SPORTS 20 LA RAQUETTE DE VILLENEUVE D'ASCQ 10 Le calendrier des rencontresJournée 507/06/2026Litige résoluLitige en coursRencontre reportableGRANDVILLARS TC 1_TC ILLKIRCH GRAFFENSTADEN 1_07/06/2026Litige résoluLitige en coursRencontre reportableSARREGUEMINES AS 1_NANTERRE (ES) 1_07/06/2026Litige résoluLitige en coursRencontre reportableTC VILLEMOMBLE SPORTS 2_LA RAQUETTE DE VILLENEUVE D'ASCQ 1_Les équipesGRANDVILLARS TC 1TC ILLKIRCH GRAFFENSTADEN 1SARREGUEMINES AS 1NANTERRE (ES) 1TC VILLEMOMBLE SPORTS 2LA RAQUETTE DE VILLENEUVE D'ASCQ 1",
     "titles": [],
-    "isIdF": false
+    "isIdF": false,
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7891,7 +8356,8 @@
       "lng": 4.840422,
       "city": "Caluire-et-Cuire",
       "postcode": "69300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7908,7 +8374,8 @@
       "lng": 3.905409,
       "city": "Montpellier",
       "postcode": "34070"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7925,7 +8392,8 @@
       "lng": 5.035677,
       "city": "Cavaillon",
       "postcode": "84300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7942,7 +8410,8 @@
       "lng": 7.031372,
       "city": "Cannes",
       "postcode": "06400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7959,7 +8428,8 @@
       "lng": 5.954251,
       "city": "La Ravoire",
       "postcode": "73490"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7976,7 +8446,8 @@
       "lng": 9.494265,
       "city": "San-Nicolao",
       "postcode": "20230"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -7993,7 +8464,8 @@
       "lng": 4.840422,
       "city": "Caluire-et-Cuire",
       "postcode": "69300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8010,7 +8482,8 @@
       "lng": 9.494265,
       "city": "San-Nicolao",
       "postcode": "20230"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8027,7 +8500,8 @@
       "lng": 5.035677,
       "city": "Cavaillon",
       "postcode": "84300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8036,7 +8510,8 @@
     "matchUrl": "https://tenup.fft.fr/championnat/82543588/division/135358/phase/218008/poule/496368/rencontre/9495226",
     "rawText": "Nationale 4POULESPOULE HLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux FCL TENNIS (ASSOCIATION) 10 T.C CAVAILLON 20 TC COSTA VERDE 10 LA RAVOIRE TC 10 MONTFLEURY CANNES TENNIS CLUB 10 TC MONTPELLIER 10 Le calendrier des rencontresJournée 431/05/2026Litige résoluLitige en coursRencontre reportableTC MONTPELLIER 1_FCL TENNIS (ASSOCIATION) 1_31/05/2026Litige résoluLitige en coursRencontre reportableT.C CAVAILLON 2_TC COSTA VERDE 1_31/05/2026Litige résoluLitige en coursRencontre reportableLA RAVOIRE TC 1_MONTFLEURY CANNES TENNIS CLUB 1_Les équipesFCL TENNIS (ASSOCIATION) 1T.C CAVAILLON 2TC COSTA VERDE 1LA RAVOIRE TC 1MONTFLEURY CANNES TENNIS CLUB 1TC MONTPELLIER 1",
     "titles": [],
-    "isIdF": false
+    "isIdF": false,
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8053,7 +8528,8 @@
       "lng": 5.035677,
       "city": "Cavaillon",
       "postcode": "84300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8070,7 +8546,8 @@
       "lng": 5.954251,
       "city": "La Ravoire",
       "postcode": "73490"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8087,7 +8564,8 @@
       "lng": 4.840422,
       "city": "Caluire-et-Cuire",
       "postcode": "69300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8104,7 +8582,8 @@
       "lng": 9.494265,
       "city": "San-Nicolao",
       "postcode": "20230"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8121,7 +8600,8 @@
       "lng": 7.031372,
       "city": "Cannes",
       "postcode": "06400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8138,7 +8618,8 @@
       "lng": 6.20255,
       "city": "Hyères",
       "postcode": "83400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8155,7 +8636,8 @@
       "lng": 3.596038,
       "city": "Villeveyrac",
       "postcode": "34560"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8172,7 +8654,8 @@
       "lng": 6.138031,
       "city": "Divonne-les-Bains",
       "postcode": "01220"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8189,7 +8672,8 @@
       "lng": 0.08535,
       "city": "Beaumarchés",
       "postcode": "32160"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8206,7 +8690,8 @@
       "lng": 5.033601,
       "city": "Dijon",
       "postcode": "21000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8223,7 +8708,8 @@
       "lng": 6.056955,
       "city": "Liverdun",
       "postcode": "54460"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8240,7 +8726,8 @@
       "lng": 6.20255,
       "city": "Hyères",
       "postcode": "83400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8257,7 +8744,8 @@
       "lng": 6.056955,
       "city": "Liverdun",
       "postcode": "54460"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8274,7 +8762,8 @@
       "lng": 6.138031,
       "city": "Divonne-les-Bains",
       "postcode": "01220"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8291,7 +8780,8 @@
       "lng": 3.596038,
       "city": "Villeveyrac",
       "postcode": "34560"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8308,7 +8798,8 @@
       "lng": 6.138031,
       "city": "Divonne-les-Bains",
       "postcode": "01220"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8325,7 +8816,8 @@
       "lng": 5.033601,
       "city": "Dijon",
       "postcode": "21000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8342,7 +8834,8 @@
       "lng": 6.20255,
       "city": "Hyères",
       "postcode": "83400"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8359,7 +8852,8 @@
       "lng": 6.056955,
       "city": "Liverdun",
       "postcode": "54460"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8376,7 +8870,8 @@
       "lng": 0.08535,
       "city": "Beaumarchés",
       "postcode": "32160"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8393,7 +8888,8 @@
       "lng": 0.701672,
       "city": "Périgueux",
       "postcode": "24000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8410,7 +8906,8 @@
       "lng": 5.246294,
       "city": "Lambesc",
       "postcode": "13410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8427,7 +8924,8 @@
       "lng": 5.405,
       "city": "Marseille",
       "postcode": "13001"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8444,7 +8942,8 @@
       "lng": 5.107504,
       "city": "Colombier-Saugnieu",
       "postcode": "69124"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8461,7 +8960,8 @@
       "lng": -0.49175,
       "city": "Artigues-près-Bordeaux",
       "postcode": "33370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8478,7 +8978,8 @@
       "lng": 1.471553,
       "city": "Ramonville-Saint-Agne",
       "postcode": "31520"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8495,7 +8996,8 @@
       "lng": 0.701672,
       "city": "Périgueux",
       "postcode": "24000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8512,7 +9014,8 @@
       "lng": 1.471553,
       "city": "Ramonville-Saint-Agne",
       "postcode": "31520"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8529,7 +9032,8 @@
       "lng": 5.405,
       "city": "Marseille",
       "postcode": "13001"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8546,7 +9050,8 @@
       "lng": 5.246294,
       "city": "Lambesc",
       "postcode": "13410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8563,7 +9068,8 @@
       "lng": 5.405,
       "city": "Marseille",
       "postcode": "13001"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8580,7 +9086,8 @@
       "lng": -0.49175,
       "city": "Artigues-près-Bordeaux",
       "postcode": "33370"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8597,7 +9104,8 @@
       "lng": 0.701672,
       "city": "Périgueux",
       "postcode": "24000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8614,7 +9122,8 @@
       "lng": 1.471553,
       "city": "Ramonville-Saint-Agne",
       "postcode": "31520"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8631,7 +9140,8 @@
       "lng": 5.107504,
       "city": "Colombier-Saugnieu",
       "postcode": "69124"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8648,7 +9158,8 @@
       "lng": 5.405,
       "city": "Marseille",
       "postcode": "13001"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8665,7 +9176,8 @@
       "lng": 1.52379,
       "city": "Saint-Orens-de-Gameville",
       "postcode": "31650"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8682,7 +9194,8 @@
       "lng": 4.794167,
       "city": "Sainte-Foy-lès-Lyon",
       "postcode": "69110"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8699,7 +9212,8 @@
       "lng": 7.090629,
       "city": "Antibes",
       "postcode": "06600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8716,7 +9230,8 @@
       "lng": 6.101037,
       "city": "Annecy",
       "postcode": "74960"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8733,7 +9248,8 @@
       "lng": -1.109718,
       "city": "Ombrée d'Anjou",
       "postcode": "49420"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8750,7 +9266,8 @@
       "lng": 5.405,
       "city": "Marseille",
       "postcode": "13001"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8767,7 +9284,8 @@
       "lng": -1.109718,
       "city": "Ombrée d'Anjou",
       "postcode": "49420"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8784,7 +9302,8 @@
       "lng": 4.794167,
       "city": "Sainte-Foy-lès-Lyon",
       "postcode": "69110"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8801,7 +9320,8 @@
       "lng": 1.52379,
       "city": "Saint-Orens-de-Gameville",
       "postcode": "31650"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8818,7 +9338,8 @@
       "lng": 4.794167,
       "city": "Sainte-Foy-lès-Lyon",
       "postcode": "69110"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8835,7 +9356,8 @@
       "lng": 6.101037,
       "city": "Annecy",
       "postcode": "74960"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8852,7 +9374,8 @@
       "lng": 5.405,
       "city": "Marseille",
       "postcode": "13001"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8869,7 +9392,8 @@
       "lng": -1.109718,
       "city": "Ombrée d'Anjou",
       "postcode": "49420"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8886,7 +9410,8 @@
       "lng": 7.090629,
       "city": "Antibes",
       "postcode": "06600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8903,7 +9428,8 @@
       "lng": -0.527522,
       "city": "Les Ponts-de-Cé",
       "postcode": "49130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8920,7 +9446,8 @@
       "lng": 1.414377,
       "city": "Fontenay-sur-Eure",
       "postcode": "28630"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8937,7 +9464,8 @@
       "lng": 2.236147,
       "city": "Boulogne-Billancourt",
       "postcode": "92100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8954,7 +9482,8 @@
       "lng": 5.028921,
       "city": "Dijon",
       "postcode": "21000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8971,7 +9500,8 @@
       "lng": -1.199474,
       "city": "Fougères",
       "postcode": "35300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -8988,7 +9518,8 @@
       "lng": 2.327655,
       "city": "Sainte-Geneviève-des-Bois",
       "postcode": "91700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9005,7 +9536,8 @@
       "lng": -0.527522,
       "city": "Les Ponts-de-Cé",
       "postcode": "49130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9022,7 +9554,8 @@
       "lng": 2.327655,
       "city": "Sainte-Geneviève-des-Bois",
       "postcode": "91700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9039,7 +9572,8 @@
       "lng": 2.236147,
       "city": "Boulogne-Billancourt",
       "postcode": "92100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9056,7 +9590,8 @@
       "lng": 1.414377,
       "city": "Fontenay-sur-Eure",
       "postcode": "28630"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9073,7 +9608,8 @@
       "lng": 2.236147,
       "city": "Boulogne-Billancourt",
       "postcode": "92100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9090,7 +9626,8 @@
       "lng": -1.199474,
       "city": "Fougères",
       "postcode": "35300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9107,7 +9644,8 @@
       "lng": -0.527522,
       "city": "Les Ponts-de-Cé",
       "postcode": "49130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9124,7 +9662,8 @@
       "lng": 2.327655,
       "city": "Sainte-Geneviève-des-Bois",
       "postcode": "91700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9141,7 +9680,8 @@
       "lng": 5.028921,
       "city": "Dijon",
       "postcode": "21000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9158,7 +9698,8 @@
       "lng": -0.570062,
       "city": "Villenave-d'Ornon",
       "postcode": "33140"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9175,7 +9716,8 @@
       "lng": -1.56502,
       "city": "Biarritz",
       "postcode": "64200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9192,7 +9734,8 @@
       "lng": 1.026566,
       "city": "Martres-Tolosane",
       "postcode": "31220"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9209,7 +9752,8 @@
       "lng": 2.566732,
       "city": "Rodez",
       "postcode": "12000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9226,7 +9770,8 @@
       "lng": -2.050902,
       "city": "Saint-Jean-de-Monts",
       "postcode": "85160"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9243,7 +9788,8 @@
       "lng": 3.099537,
       "city": "Clermont-Ferrand",
       "postcode": "63100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9260,7 +9806,8 @@
       "lng": -0.570062,
       "city": "Villenave-d'Ornon",
       "postcode": "33140"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9277,7 +9824,8 @@
       "lng": 3.099537,
       "city": "Clermont-Ferrand",
       "postcode": "63100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9294,7 +9842,8 @@
       "lng": 1.026566,
       "city": "Martres-Tolosane",
       "postcode": "31220"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9311,7 +9860,8 @@
       "lng": -1.56502,
       "city": "Biarritz",
       "postcode": "64200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9328,7 +9878,8 @@
       "lng": 1.026566,
       "city": "Martres-Tolosane",
       "postcode": "31220"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9345,7 +9896,8 @@
       "lng": -2.050902,
       "city": "Saint-Jean-de-Monts",
       "postcode": "85160"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9362,7 +9914,8 @@
       "lng": -0.570062,
       "city": "Villenave-d'Ornon",
       "postcode": "33140"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9379,7 +9932,8 @@
       "lng": 3.099537,
       "city": "Clermont-Ferrand",
       "postcode": "63100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9396,7 +9950,8 @@
       "lng": 2.566732,
       "city": "Rodez",
       "postcode": "12000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9413,7 +9968,8 @@
       "lng": 2.167936,
       "city": "Herblay-sur-Seine",
       "postcode": "95220"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9430,7 +9986,8 @@
       "lng": 1.894075,
       "city": "Orléans",
       "postcode": "45000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9447,7 +10004,8 @@
       "lng": 0.329758,
       "city": "Saint-Benoît",
       "postcode": "86280"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9464,7 +10022,8 @@
       "lng": 0.283396,
       "city": "Avrillé-les-Ponceaux",
       "postcode": "37340"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9481,7 +10040,8 @@
       "lng": 2.040996,
       "city": "Chambourcy",
       "postcode": "78240"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9498,7 +10058,8 @@
       "lng": -1.14961,
       "city": "Lagord",
       "postcode": "17140"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9515,7 +10076,8 @@
       "lng": 2.167936,
       "city": "Herblay-sur-Seine",
       "postcode": "95220"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9532,7 +10094,8 @@
       "lng": -1.14961,
       "city": "Lagord",
       "postcode": "17140"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9549,7 +10112,8 @@
       "lng": 0.329758,
       "city": "Saint-Benoît",
       "postcode": "86280"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9566,7 +10130,8 @@
       "lng": 1.894075,
       "city": "Orléans",
       "postcode": "45000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9583,7 +10148,8 @@
       "lng": 0.329758,
       "city": "Saint-Benoît",
       "postcode": "86280"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9600,7 +10166,8 @@
       "lng": 2.040996,
       "city": "Chambourcy",
       "postcode": "78240"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9617,7 +10184,8 @@
       "lng": 2.167936,
       "city": "Herblay-sur-Seine",
       "postcode": "95220"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9634,7 +10202,8 @@
       "lng": -1.14961,
       "city": "Lagord",
       "postcode": "17140"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9651,7 +10220,8 @@
       "lng": 0.283396,
       "city": "Avrillé-les-Ponceaux",
       "postcode": "37340"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9668,7 +10238,8 @@
       "lng": 5.91461,
       "city": "Aix-les-Bains",
       "postcode": "73100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9685,7 +10256,8 @@
       "lng": 2.257404,
       "city": "Ermont",
       "postcode": "95120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9702,7 +10274,8 @@
       "lng": 3.292827,
       "city": "Sens",
       "postcode": "89100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9719,7 +10292,8 @@
       "lng": 2.593974,
       "city": "Champs-sur-Marne",
       "postcode": "77420"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9736,7 +10310,8 @@
       "lng": 5.287776,
       "city": "Bourgoin-Jallieu",
       "postcode": "38300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9753,7 +10328,8 @@
       "lng": 1.506653,
       "city": "Villemur-sur-Tarn",
       "postcode": "31340"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9770,7 +10346,8 @@
       "lng": 5.91461,
       "city": "Aix-les-Bains",
       "postcode": "73100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9787,7 +10364,8 @@
       "lng": 1.506653,
       "city": "Villemur-sur-Tarn",
       "postcode": "31340"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9804,7 +10382,8 @@
       "lng": 3.292827,
       "city": "Sens",
       "postcode": "89100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9821,7 +10400,8 @@
       "lng": 2.257404,
       "city": "Ermont",
       "postcode": "95120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9838,7 +10418,8 @@
       "lng": 3.292827,
       "city": "Sens",
       "postcode": "89100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9855,7 +10436,8 @@
       "lng": 5.287776,
       "city": "Bourgoin-Jallieu",
       "postcode": "38300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9872,7 +10454,8 @@
       "lng": 5.91461,
       "city": "Aix-les-Bains",
       "postcode": "73100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9889,7 +10472,8 @@
       "lng": 1.506653,
       "city": "Villemur-sur-Tarn",
       "postcode": "31340"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9906,7 +10490,8 @@
       "lng": 2.593974,
       "city": "Champs-sur-Marne",
       "postcode": "77420"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9923,7 +10508,8 @@
       "lng": 2.070077,
       "city": "Capdenac",
       "postcode": "46100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9940,7 +10526,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9957,7 +10544,8 @@
       "lng": 6.467277,
       "city": "Draguignan",
       "postcode": "83300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9974,7 +10562,8 @@
       "lng": 4.833645,
       "city": "Châteaurenard",
       "postcode": "13160"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -9991,7 +10580,8 @@
       "lng": 2.347,
       "city": "Paris",
       "postcode": "75001"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10008,7 +10598,8 @@
       "lng": -1.445308,
       "city": "Saint-Pierre-d'Irube",
       "postcode": "64990"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10025,7 +10616,8 @@
       "lng": 2.070077,
       "city": "Capdenac",
       "postcode": "46100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10042,7 +10634,8 @@
       "lng": -1.445308,
       "city": "Saint-Pierre-d'Irube",
       "postcode": "64990"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10059,7 +10652,8 @@
       "lng": 6.467277,
       "city": "Draguignan",
       "postcode": "83300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10076,7 +10670,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10093,7 +10688,8 @@
       "lng": 6.467277,
       "city": "Draguignan",
       "postcode": "83300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10110,7 +10706,8 @@
       "lng": 2.347,
       "city": "Paris",
       "postcode": "75001"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10127,7 +10724,8 @@
       "lng": 2.070077,
       "city": "Capdenac",
       "postcode": "46100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10144,7 +10742,8 @@
       "lng": -1.445308,
       "city": "Saint-Pierre-d'Irube",
       "postcode": "64990"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10161,7 +10760,8 @@
       "lng": 4.833645,
       "city": "Châteaurenard",
       "postcode": "13160"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10178,7 +10778,8 @@
       "lng": 3.136983,
       "city": "Villeneuve-d'Ascq",
       "postcode": "59650"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10195,7 +10796,8 @@
       "lng": 1.081654,
       "city": "Mont-Saint-Aignan",
       "postcode": "76130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10212,7 +10814,8 @@
       "lng": 2.988111,
       "city": "Villelongue-de-la-Salanque",
       "postcode": "66410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10229,7 +10832,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10246,7 +10850,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10263,7 +10868,8 @@
       "lng": 2.247799,
       "city": "Colombes",
       "postcode": "92700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10280,7 +10886,8 @@
       "lng": 3.136983,
       "city": "Villeneuve-d'Ascq",
       "postcode": "59650"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10297,7 +10904,8 @@
       "lng": 2.247799,
       "city": "Colombes",
       "postcode": "92700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10314,7 +10922,8 @@
       "lng": 2.988111,
       "city": "Villelongue-de-la-Salanque",
       "postcode": "66410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10331,7 +10940,8 @@
       "lng": 1.081654,
       "city": "Mont-Saint-Aignan",
       "postcode": "76130"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10348,7 +10958,8 @@
       "lng": 2.988111,
       "city": "Villelongue-de-la-Salanque",
       "postcode": "66410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10365,7 +10976,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10382,7 +10994,8 @@
       "lng": 3.136983,
       "city": "Villeneuve-d'Ascq",
       "postcode": "59650"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10399,7 +11012,8 @@
       "lng": 2.247799,
       "city": "Colombes",
       "postcode": "92700"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10416,7 +11030,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10433,7 +11048,8 @@
       "lng": 2.677872,
       "city": "Claye-Souilly",
       "postcode": "77410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10450,7 +11066,8 @@
       "lng": 7.761454,
       "city": "Strasbourg",
       "postcode": "67000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10467,7 +11084,8 @@
       "lng": 1.980424,
       "city": "Ardres",
       "postcode": "62610"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10484,7 +11102,8 @@
       "lng": 3.137943,
       "city": "Mouvaux",
       "postcode": "59420"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10501,7 +11120,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10518,7 +11138,8 @@
       "lng": 2.296635,
       "city": "Gennevilliers",
       "postcode": "92230"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10535,7 +11156,8 @@
       "lng": 2.677872,
       "city": "Claye-Souilly",
       "postcode": "77410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10552,7 +11174,8 @@
       "lng": 2.296635,
       "city": "Gennevilliers",
       "postcode": "92230"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10569,7 +11192,8 @@
       "lng": 1.980424,
       "city": "Ardres",
       "postcode": "62610"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10586,7 +11210,8 @@
       "lng": 7.761454,
       "city": "Strasbourg",
       "postcode": "67000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10603,7 +11228,8 @@
       "lng": 1.980424,
       "city": "Ardres",
       "postcode": "62610"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10620,7 +11246,8 @@
       "lng": -1.134327,
       "city": "Soulac-sur-Mer",
       "postcode": "33780"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10637,7 +11264,8 @@
       "lng": 2.677872,
       "city": "Claye-Souilly",
       "postcode": "77410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10654,7 +11282,8 @@
       "lng": 2.296635,
       "city": "Gennevilliers",
       "postcode": "92230"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10671,7 +11300,8 @@
       "lng": 3.137943,
       "city": "Mouvaux",
       "postcode": "59420"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10688,7 +11318,8 @@
       "lng": -1.52446,
       "city": "Nantes",
       "postcode": "44300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10705,7 +11336,8 @@
       "lng": 1.020026,
       "city": "Saint-Aubin-lès-Elbeuf",
       "postcode": "76410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10722,7 +11354,8 @@
       "lng": 2.675438,
       "city": "Ozoir-la-Ferrière",
       "postcode": "77330"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10739,7 +11372,8 @@
       "lng": 1.721643,
       "city": "Châteauroux",
       "postcode": "36000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10756,7 +11390,8 @@
       "lng": 1.32962,
       "city": "Colomiers",
       "postcode": "31770"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10773,7 +11408,8 @@
       "lng": 2.268901,
       "city": "Neuilly-sur-Seine",
       "postcode": "92200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10790,7 +11426,8 @@
       "lng": -1.52446,
       "city": "Nantes",
       "postcode": "44300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10807,7 +11444,8 @@
       "lng": 2.268901,
       "city": "Neuilly-sur-Seine",
       "postcode": "92200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10824,7 +11462,8 @@
       "lng": 2.675438,
       "city": "Ozoir-la-Ferrière",
       "postcode": "77330"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10841,7 +11480,8 @@
       "lng": 1.020026,
       "city": "Saint-Aubin-lès-Elbeuf",
       "postcode": "76410"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10858,7 +11498,8 @@
       "lng": 2.675438,
       "city": "Ozoir-la-Ferrière",
       "postcode": "77330"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10875,7 +11516,8 @@
       "lng": 1.32962,
       "city": "Colomiers",
       "postcode": "31770"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10892,7 +11534,8 @@
       "lng": -1.52446,
       "city": "Nantes",
       "postcode": "44300"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10909,7 +11552,8 @@
       "lng": 2.268901,
       "city": "Neuilly-sur-Seine",
       "postcode": "92200"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10926,7 +11570,8 @@
       "lng": 1.721643,
       "city": "Châteauroux",
       "postcode": "36000"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10943,7 +11588,8 @@
       "lng": -0.599658,
       "city": "Le Bouscat",
       "postcode": "33110"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10960,7 +11606,8 @@
       "lng": 2.111227,
       "city": "Saint-Germain-en-Laye",
       "postcode": "78100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10977,7 +11624,8 @@
       "lng": 1.717484,
       "city": "Le Poinçonnet",
       "postcode": "36330"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -10994,7 +11642,8 @@
       "lng": 2.997518,
       "city": "Lille",
       "postcode": "59160"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11011,7 +11660,8 @@
       "lng": 2.487396,
       "city": "Rosny-sous-Bois",
       "postcode": "93110"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11028,7 +11678,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11045,7 +11696,8 @@
       "lng": -0.599658,
       "city": "Le Bouscat",
       "postcode": "33110"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11062,7 +11714,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11079,7 +11732,8 @@
       "lng": 1.717484,
       "city": "Le Poinçonnet",
       "postcode": "36330"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11096,7 +11750,8 @@
       "lng": 2.111227,
       "city": "Saint-Germain-en-Laye",
       "postcode": "78100"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11113,7 +11768,8 @@
       "lng": 1.717484,
       "city": "Le Poinçonnet",
       "postcode": "36330"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11130,7 +11786,8 @@
       "lng": 2.487396,
       "city": "Rosny-sous-Bois",
       "postcode": "93110"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11147,7 +11804,8 @@
       "lng": -0.599658,
       "city": "Le Bouscat",
       "postcode": "33110"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11164,7 +11822,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11181,7 +11840,8 @@
       "lng": 2.997518,
       "city": "Lille",
       "postcode": "59160"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11198,7 +11858,8 @@
       "lng": 2.4984,
       "city": "Le Perreux-sur-Marne",
       "postcode": "94170"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11215,7 +11876,8 @@
       "lng": 7.372336,
       "city": "Sausheim",
       "postcode": "68390"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11232,7 +11894,8 @@
       "lng": 2.131228,
       "city": "Le Vésinet",
       "postcode": "78110"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11249,7 +11912,8 @@
       "lng": -61.004454,
       "city": "Le Lamentin",
       "postcode": "97232"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11266,7 +11930,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11283,7 +11948,8 @@
       "lng": 6.136628,
       "city": "Villers-lès-Nancy",
       "postcode": "54600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11300,7 +11966,8 @@
       "lng": 2.4984,
       "city": "Le Perreux-sur-Marne",
       "postcode": "94170"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11317,7 +11984,8 @@
       "lng": 6.136628,
       "city": "Villers-lès-Nancy",
       "postcode": "54600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11334,7 +12002,8 @@
       "lng": 2.131228,
       "city": "Le Vésinet",
       "postcode": "78110"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11351,7 +12020,8 @@
       "lng": 7.372336,
       "city": "Sausheim",
       "postcode": "68390"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11368,7 +12038,8 @@
       "lng": 2.131228,
       "city": "Le Vésinet",
       "postcode": "78110"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11385,7 +12056,8 @@
       "lng": 7.528951,
       "city": "Altorf",
       "postcode": "67120"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11402,7 +12074,8 @@
       "lng": 2.4984,
       "city": "Le Perreux-sur-Marne",
       "postcode": "94170"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11419,7 +12092,8 @@
       "lng": 6.136628,
       "city": "Villers-lès-Nancy",
       "postcode": "54600"
-    }
+    },
+    "gender": "M"
   },
   {
     "division": "NATIONALE 4",
@@ -11436,6 +12110,673 @@
       "lng": -61.004454,
       "city": "Le Lamentin",
       "postcode": "97232"
+    },
+    "gender": "M"
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 1",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491936",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 126/04/2026Litige résoluLitige en coursRencontre reportableLAGARDERE PARIS RACING 1_TC SAINT-SAULVE 1_26/04/2026Litige résoluLitige en coursRencontre reportableVILLA PRIMROSE 1_TC TROYES 1_26/04/2026Litige résoluLitige en coursRencontre reportableT.C. PLAISIR 1_LESIGNY USC 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre LAGARDERE PARIS RACING 1 / TC SAINT-SAULVE 1 du 26/04/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.849996,
+      "lng": 2.340683,
+      "city": "Paris",
+      "postcode": "75006"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 1",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491938",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 126/04/2026Litige résoluLitige en coursRencontre reportableLAGARDERE PARIS RACING 1_TC SAINT-SAULVE 1_26/04/2026Litige résoluLitige en coursRencontre reportableVILLA PRIMROSE 1_TC TROYES 1_26/04/2026Litige résoluLitige en coursRencontre reportableT.C. PLAISIR 1_LESIGNY USC 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre VILLA PRIMROSE 1 / TC TROYES 1 du 26/04/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.920477,
+      "lng": 2.40782,
+      "city": "La Courneuve",
+      "postcode": "93120"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 1",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491941",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 126/04/2026Litige résoluLitige en coursRencontre reportableLAGARDERE PARIS RACING 1_TC SAINT-SAULVE 1_26/04/2026Litige résoluLitige en coursRencontre reportableVILLA PRIMROSE 1_TC TROYES 1_26/04/2026Litige résoluLitige en coursRencontre reportableT.C. PLAISIR 1_LESIGNY USC 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre T.C. PLAISIR 1 / LESIGNY USC 1 du 26/04/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.812226,
+      "lng": 1.946353,
+      "city": "Plaisir",
+      "postcode": "78370"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 2",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491932",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 203/05/2026Litige résoluLitige en coursRencontre reportableTC SAINT-SAULVE 1_LESIGNY USC 1_03/05/2026Litige résoluLitige en coursRencontre reportableTC TROYES 1_T.C. PLAISIR 1_03/05/2026Litige résoluLitige en coursRencontre reportableLAGARDERE PARIS RACING 1_VILLA PRIMROSE 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre TC SAINT-SAULVE 1 / LESIGNY USC 1 du 03/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 50.376565,
+      "lng": 3.561715,
+      "city": "Saint-Saulve",
+      "postcode": "59880"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 2",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491934",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 203/05/2026Litige résoluLitige en coursRencontre reportableTC SAINT-SAULVE 1_LESIGNY USC 1_03/05/2026Litige résoluLitige en coursRencontre reportableTC TROYES 1_T.C. PLAISIR 1_03/05/2026Litige résoluLitige en coursRencontre reportableLAGARDERE PARIS RACING 1_VILLA PRIMROSE 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre TC TROYES 1 / T.C. PLAISIR 1 du 03/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.292817,
+      "lng": 4.075149,
+      "city": "Troyes",
+      "postcode": "10000"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 2",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491944",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 203/05/2026Litige résoluLitige en coursRencontre reportableTC SAINT-SAULVE 1_LESIGNY USC 1_03/05/2026Litige résoluLitige en coursRencontre reportableTC TROYES 1_T.C. PLAISIR 1_03/05/2026Litige résoluLitige en coursRencontre reportableLAGARDERE PARIS RACING 1_VILLA PRIMROSE 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre LAGARDERE PARIS RACING 1 / VILLA PRIMROSE 1 du 03/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.849996,
+      "lng": 2.340683,
+      "city": "Paris",
+      "postcode": "75006"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 3",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491939",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 310/05/2026Litige résoluLitige en coursRencontre reportableTC SAINT-SAULVE 1_TC TROYES 1_10/05/2026Litige résoluLitige en coursRencontre reportableLESIGNY USC 1_LAGARDERE PARIS RACING 1_10/05/2026Litige résoluLitige en coursRencontre reportableT.C. PLAISIR 1_VILLA PRIMROSE 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre TC SAINT-SAULVE 1 / TC TROYES 1 du 10/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 50.376565,
+      "lng": 3.561715,
+      "city": "Saint-Saulve",
+      "postcode": "59880"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 3",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491942",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 310/05/2026Litige résoluLitige en coursRencontre reportableTC SAINT-SAULVE 1_TC TROYES 1_10/05/2026Litige résoluLitige en coursRencontre reportableLESIGNY USC 1_LAGARDERE PARIS RACING 1_10/05/2026Litige résoluLitige en coursRencontre reportableT.C. PLAISIR 1_VILLA PRIMROSE 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre LESIGNY USC 1 / LAGARDERE PARIS RACING 1 du 10/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 46.145964,
+      "lng": 0.660097,
+      "city": "Availles-Limouzine",
+      "postcode": "86460"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 3",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491945",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 310/05/2026Litige résoluLitige en coursRencontre reportableTC SAINT-SAULVE 1_TC TROYES 1_10/05/2026Litige résoluLitige en coursRencontre reportableLESIGNY USC 1_LAGARDERE PARIS RACING 1_10/05/2026Litige résoluLitige en coursRencontre reportableT.C. PLAISIR 1_VILLA PRIMROSE 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre T.C. PLAISIR 1 / VILLA PRIMROSE 1 du 10/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.812226,
+      "lng": 1.946353,
+      "city": "Plaisir",
+      "postcode": "78370"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 4",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491933",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 431/05/2026Litige résoluLitige en coursRencontre reportableVILLA PRIMROSE 1_TC SAINT-SAULVE 1_31/05/2026Litige résoluLitige en coursRencontre reportableT.C. PLAISIR 1_LAGARDERE PARIS RACING 1_31/05/2026Litige résoluLitige en coursRencontre reportableTC TROYES 1_LESIGNY USC 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre VILLA PRIMROSE 1 / TC SAINT-SAULVE 1 du 31/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.920477,
+      "lng": 2.40782,
+      "city": "La Courneuve",
+      "postcode": "93120"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 4",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491937",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 431/05/2026Litige résoluLitige en coursRencontre reportableVILLA PRIMROSE 1_TC SAINT-SAULVE 1_31/05/2026Litige résoluLitige en coursRencontre reportableT.C. PLAISIR 1_LAGARDERE PARIS RACING 1_31/05/2026Litige résoluLitige en coursRencontre reportableTC TROYES 1_LESIGNY USC 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre T.C. PLAISIR 1 / LAGARDERE PARIS RACING 1 du 31/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.812226,
+      "lng": 1.946353,
+      "city": "Plaisir",
+      "postcode": "78370"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 4",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491943",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 431/05/2026Litige résoluLitige en coursRencontre reportableVILLA PRIMROSE 1_TC SAINT-SAULVE 1_31/05/2026Litige résoluLitige en coursRencontre reportableT.C. PLAISIR 1_LAGARDERE PARIS RACING 1_31/05/2026Litige résoluLitige en coursRencontre reportableTC TROYES 1_LESIGNY USC 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre TC TROYES 1 / LESIGNY USC 1 du 31/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.292817,
+      "lng": 4.075149,
+      "city": "Troyes",
+      "postcode": "10000"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 5",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491935",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 507/06/2026Litige résoluLitige en coursRencontre reportableTC SAINT-SAULVE 1_T.C. PLAISIR 1_07/06/2026Litige résoluLitige en coursRencontre reportableLAGARDERE PARIS RACING 1_TC TROYES 1_07/06/2026Litige résoluLitige en coursRencontre reportableLESIGNY USC 1_VILLA PRIMROSE 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre TC SAINT-SAULVE 1 / T.C. PLAISIR 1 du 07/06/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 50.376565,
+      "lng": 3.561715,
+      "city": "Saint-Saulve",
+      "postcode": "59880"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 5",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491940",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 507/06/2026Litige résoluLitige en coursRencontre reportableTC SAINT-SAULVE 1_T.C. PLAISIR 1_07/06/2026Litige résoluLitige en coursRencontre reportableLAGARDERE PARIS RACING 1_TC TROYES 1_07/06/2026Litige résoluLitige en coursRencontre reportableLESIGNY USC 1_VILLA PRIMROSE 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre LAGARDERE PARIS RACING 1 / TC TROYES 1 du 07/06/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.849996,
+      "lng": 2.340683,
+      "city": "Paris",
+      "postcode": "75006"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE A",
+    "journee": "Journée 5",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494697/rencontre/9491946",
+    "rawText": "Nationale 1POULESPOULE ALe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TC SAINT-SAULVE 10 T.C. PLAISIR 10 LAGARDERE PARIS RACING 10 TC TROYES 10 LESIGNY USC 10 VILLA PRIMROSE 10 Le calendrier des rencontresJournée 507/06/2026Litige résoluLitige en coursRencontre reportableTC SAINT-SAULVE 1_T.C. PLAISIR 1_07/06/2026Litige résoluLitige en coursRencontre reportableLAGARDERE PARIS RACING 1_TC TROYES 1_07/06/2026Litige résoluLitige en coursRencontre reportableLESIGNY USC 1_VILLA PRIMROSE 1_Les équipesTC SAINT-SAULVE 1T.C. PLAISIR 1LAGARDERE PARIS RACING 1TC TROYES 1LESIGNY USC 1VILLA PRIMROSE 1",
+    "titles": [
+      "Rencontre LESIGNY USC 1 / VILLA PRIMROSE 1 du 07/06/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 46.145964,
+      "lng": 0.660097,
+      "city": "Availles-Limouzine",
+      "postcode": "86460"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 1",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491951",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 126/04/2026Litige résoluLitige en coursRencontre reportableTENNIS CLUB DE PARIS 2_CLUB TENNIS BEAUCOURTOIS 1_26/04/2026Litige résoluLitige en coursRencontre reportableST JULIEN EN GENEVOIS TC 1_RUEIL ATHLETIC CLUB 1_26/04/2026Litige résoluLitige en coursRencontre reportableUNION SPORTIVE ORLEANAISE 1_ERMONT A.C.T. 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre TENNIS CLUB DE PARIS 2 / CLUB TENNIS BEAUCOURTOIS 1 du 26/04/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.859,
+      "lng": 2.347,
+      "city": "Paris",
+      "postcode": "75001"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 1",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491953",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 126/04/2026Litige résoluLitige en coursRencontre reportableTENNIS CLUB DE PARIS 2_CLUB TENNIS BEAUCOURTOIS 1_26/04/2026Litige résoluLitige en coursRencontre reportableST JULIEN EN GENEVOIS TC 1_RUEIL ATHLETIC CLUB 1_26/04/2026Litige résoluLitige en coursRencontre reportableUNION SPORTIVE ORLEANAISE 1_ERMONT A.C.T. 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre ST JULIEN EN GENEVOIS TC 1 / RUEIL ATHLETIC CLUB 1 du 26/04/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 46.145461,
+      "lng": 6.093707,
+      "city": "Saint-Julien-en-Genevois",
+      "postcode": "74160"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 1",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491956",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 126/04/2026Litige résoluLitige en coursRencontre reportableTENNIS CLUB DE PARIS 2_CLUB TENNIS BEAUCOURTOIS 1_26/04/2026Litige résoluLitige en coursRencontre reportableST JULIEN EN GENEVOIS TC 1_RUEIL ATHLETIC CLUB 1_26/04/2026Litige résoluLitige en coursRencontre reportableUNION SPORTIVE ORLEANAISE 1_ERMONT A.C.T. 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre UNION SPORTIVE ORLEANAISE 1 / ERMONT A.C.T. 1 du 26/04/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 47.929471,
+      "lng": 1.894075,
+      "city": "Orléans",
+      "postcode": "45000"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 2",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491947",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 203/05/2026Litige résoluLitige en coursRencontre reportableERMONT A.C.T. 1_TENNIS CLUB DE PARIS 2_03/05/2026Litige résoluLitige en coursRencontre reportableRUEIL ATHLETIC CLUB 1_UNION SPORTIVE ORLEANAISE 1_03/05/2026Litige résoluLitige en coursRencontre reportableCLUB TENNIS BEAUCOURTOIS 1_ST JULIEN EN GENEVOIS TC 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre ERMONT A.C.T. 1 / TENNIS CLUB DE PARIS 2 du 03/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.989064,
+      "lng": 2.257404,
+      "city": "Ermont",
+      "postcode": "95120"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 2",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491949",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 203/05/2026Litige résoluLitige en coursRencontre reportableERMONT A.C.T. 1_TENNIS CLUB DE PARIS 2_03/05/2026Litige résoluLitige en coursRencontre reportableRUEIL ATHLETIC CLUB 1_UNION SPORTIVE ORLEANAISE 1_03/05/2026Litige résoluLitige en coursRencontre reportableCLUB TENNIS BEAUCOURTOIS 1_ST JULIEN EN GENEVOIS TC 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre RUEIL ATHLETIC CLUB 1 / UNION SPORTIVE ORLEANAISE 1 du 03/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.874531,
+      "lng": 2.180455,
+      "city": "Rueil-Malmaison",
+      "postcode": "92500"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 2",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491959",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 203/05/2026Litige résoluLitige en coursRencontre reportableERMONT A.C.T. 1_TENNIS CLUB DE PARIS 2_03/05/2026Litige résoluLitige en coursRencontre reportableRUEIL ATHLETIC CLUB 1_UNION SPORTIVE ORLEANAISE 1_03/05/2026Litige résoluLitige en coursRencontre reportableCLUB TENNIS BEAUCOURTOIS 1_ST JULIEN EN GENEVOIS TC 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre CLUB TENNIS BEAUCOURTOIS 1 / ST JULIEN EN GENEVOIS TC 1 du 03/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.754294,
+      "lng": 2.222606,
+      "city": "Bièvres",
+      "postcode": "91570"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 3",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491954",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 310/05/2026Litige résoluLitige en coursRencontre reportableTENNIS CLUB DE PARIS 2_RUEIL ATHLETIC CLUB 1_10/05/2026Litige résoluLitige en coursRencontre reportableCLUB TENNIS BEAUCOURTOIS 1_ERMONT A.C.T. 1_10/05/2026Litige résoluLitige en coursRencontre reportableUNION SPORTIVE ORLEANAISE 1_ST JULIEN EN GENEVOIS TC 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre TENNIS CLUB DE PARIS 2 / RUEIL ATHLETIC CLUB 1 du 10/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.859,
+      "lng": 2.347,
+      "city": "Paris",
+      "postcode": "75001"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 3",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491957",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 310/05/2026Litige résoluLitige en coursRencontre reportableTENNIS CLUB DE PARIS 2_RUEIL ATHLETIC CLUB 1_10/05/2026Litige résoluLitige en coursRencontre reportableCLUB TENNIS BEAUCOURTOIS 1_ERMONT A.C.T. 1_10/05/2026Litige résoluLitige en coursRencontre reportableUNION SPORTIVE ORLEANAISE 1_ST JULIEN EN GENEVOIS TC 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre CLUB TENNIS BEAUCOURTOIS 1 / ERMONT A.C.T. 1 du 10/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.754294,
+      "lng": 2.222606,
+      "city": "Bièvres",
+      "postcode": "91570"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 3",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491960",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 310/05/2026Litige résoluLitige en coursRencontre reportableTENNIS CLUB DE PARIS 2_RUEIL ATHLETIC CLUB 1_10/05/2026Litige résoluLitige en coursRencontre reportableCLUB TENNIS BEAUCOURTOIS 1_ERMONT A.C.T. 1_10/05/2026Litige résoluLitige en coursRencontre reportableUNION SPORTIVE ORLEANAISE 1_ST JULIEN EN GENEVOIS TC 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre UNION SPORTIVE ORLEANAISE 1 / ST JULIEN EN GENEVOIS TC 1 du 10/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 47.929471,
+      "lng": 1.894075,
+      "city": "Orléans",
+      "postcode": "45000"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 4",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491948",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 431/05/2026Litige résoluLitige en coursRencontre reportableST JULIEN EN GENEVOIS TC 1_TENNIS CLUB DE PARIS 2_31/05/2026Litige résoluLitige en coursRencontre reportableUNION SPORTIVE ORLEANAISE 1_CLUB TENNIS BEAUCOURTOIS 1_31/05/2026Litige résoluLitige en coursRencontre reportableRUEIL ATHLETIC CLUB 1_ERMONT A.C.T. 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre ST JULIEN EN GENEVOIS TC 1 / TENNIS CLUB DE PARIS 2 du 31/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 46.145461,
+      "lng": 6.093707,
+      "city": "Saint-Julien-en-Genevois",
+      "postcode": "74160"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 4",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491952",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 431/05/2026Litige résoluLitige en coursRencontre reportableST JULIEN EN GENEVOIS TC 1_TENNIS CLUB DE PARIS 2_31/05/2026Litige résoluLitige en coursRencontre reportableUNION SPORTIVE ORLEANAISE 1_CLUB TENNIS BEAUCOURTOIS 1_31/05/2026Litige résoluLitige en coursRencontre reportableRUEIL ATHLETIC CLUB 1_ERMONT A.C.T. 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre UNION SPORTIVE ORLEANAISE 1 / CLUB TENNIS BEAUCOURTOIS 1 du 31/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 47.929471,
+      "lng": 1.894075,
+      "city": "Orléans",
+      "postcode": "45000"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 4",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491958",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 431/05/2026Litige résoluLitige en coursRencontre reportableST JULIEN EN GENEVOIS TC 1_TENNIS CLUB DE PARIS 2_31/05/2026Litige résoluLitige en coursRencontre reportableUNION SPORTIVE ORLEANAISE 1_CLUB TENNIS BEAUCOURTOIS 1_31/05/2026Litige résoluLitige en coursRencontre reportableRUEIL ATHLETIC CLUB 1_ERMONT A.C.T. 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre RUEIL ATHLETIC CLUB 1 / ERMONT A.C.T. 1 du 31/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.874531,
+      "lng": 2.180455,
+      "city": "Rueil-Malmaison",
+      "postcode": "92500"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 5",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491950",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 507/06/2026Litige résoluLitige en coursRencontre reportableTENNIS CLUB DE PARIS 2_UNION SPORTIVE ORLEANAISE 1_07/06/2026Litige résoluLitige en coursRencontre reportableCLUB TENNIS BEAUCOURTOIS 1_RUEIL ATHLETIC CLUB 1_07/06/2026Litige résoluLitige en coursRencontre reportableERMONT A.C.T. 1_ST JULIEN EN GENEVOIS TC 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre TENNIS CLUB DE PARIS 2 / UNION SPORTIVE ORLEANAISE 1 du 07/06/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.859,
+      "lng": 2.347,
+      "city": "Paris",
+      "postcode": "75001"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 5",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491955",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 507/06/2026Litige résoluLitige en coursRencontre reportableTENNIS CLUB DE PARIS 2_UNION SPORTIVE ORLEANAISE 1_07/06/2026Litige résoluLitige en coursRencontre reportableCLUB TENNIS BEAUCOURTOIS 1_RUEIL ATHLETIC CLUB 1_07/06/2026Litige résoluLitige en coursRencontre reportableERMONT A.C.T. 1_ST JULIEN EN GENEVOIS TC 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre CLUB TENNIS BEAUCOURTOIS 1 / RUEIL ATHLETIC CLUB 1 du 07/06/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.754294,
+      "lng": 2.222606,
+      "city": "Bièvres",
+      "postcode": "91570"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE B",
+    "journee": "Journée 5",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494698/rencontre/9491961",
+    "rawText": "Nationale 1POULESPOULE BLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux TENNIS CLUB DE PARIS 20 UNION SPORTIVE ORLEANAISE 10 CLUB TENNIS BEAUCOURTOIS 10 RUEIL ATHLETIC CLUB 10 ERMONT A.C.T. 10 ST JULIEN EN GENEVOIS TC 10 Le calendrier des rencontresJournée 507/06/2026Litige résoluLitige en coursRencontre reportableTENNIS CLUB DE PARIS 2_UNION SPORTIVE ORLEANAISE 1_07/06/2026Litige résoluLitige en coursRencontre reportableCLUB TENNIS BEAUCOURTOIS 1_RUEIL ATHLETIC CLUB 1_07/06/2026Litige résoluLitige en coursRencontre reportableERMONT A.C.T. 1_ST JULIEN EN GENEVOIS TC 1_Les équipesTENNIS CLUB DE PARIS 2UNION SPORTIVE ORLEANAISE 1CLUB TENNIS BEAUCOURTOIS 1RUEIL ATHLETIC CLUB 1ERMONT A.C.T. 1ST JULIEN EN GENEVOIS TC 1",
+    "titles": [
+      "Rencontre ERMONT A.C.T. 1 / ST JULIEN EN GENEVOIS TC 1 du 07/06/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.989064,
+      "lng": 2.257404,
+      "city": "Ermont",
+      "postcode": "95120"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE C",
+    "journee": "Journée 1",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494699/rencontre/9491966",
+    "rawText": "Nationale 1POULESPOULE CLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux COURBEVOIE SPORT TENNIS 10 T.C. CHATOU 10 ASLM TENNIS CANNES 10 AIX LES BAINS TC 10 LA RAQUETTE DE VILLENEUVE D'ASCQ 10 AMICALE MANIN SPORT PARIS EST 10 Le calendrier des rencontresJournée 126/04/2026Litige résoluLitige en coursRencontre reportableCOURBEVOIE SPORT TENNIS 1_ASLM TENNIS CANNES 1_26/04/2026Litige résoluLitige en coursRencontre reportableAMICALE MANIN SPORT PARIS EST 1_AIX LES BAINS TC 1_26/04/2026Litige résoluLitige en coursRencontre reportableT.C. CHATOU 1_LA RAQUETTE DE VILLENEUVE D'ASCQ 1_Les équipesCOURBEVOIE SPORT TENNIS 1T.C. CHATOU 1ASLM TENNIS CANNES 1AIX LES BAINS TC 1LA RAQUETTE DE VILLENEUVE D'ASCQ 1AMICALE MANIN SPORT PARIS EST 1",
+    "titles": [
+      "Rencontre COURBEVOIE SPORT TENNIS 1 / ASLM TENNIS CANNES 1 du 26/04/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.8998,
+      "lng": 2.267996,
+      "city": "Courbevoie",
+      "postcode": "92400"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE C",
+    "journee": "Journée 1",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494699/rencontre/9491968",
+    "rawText": "Nationale 1POULESPOULE CLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux COURBEVOIE SPORT TENNIS 10 T.C. CHATOU 10 ASLM TENNIS CANNES 10 AIX LES BAINS TC 10 LA RAQUETTE DE VILLENEUVE D'ASCQ 10 AMICALE MANIN SPORT PARIS EST 10 Le calendrier des rencontresJournée 126/04/2026Litige résoluLitige en coursRencontre reportableCOURBEVOIE SPORT TENNIS 1_ASLM TENNIS CANNES 1_26/04/2026Litige résoluLitige en coursRencontre reportableAMICALE MANIN SPORT PARIS EST 1_AIX LES BAINS TC 1_26/04/2026Litige résoluLitige en coursRencontre reportableT.C. CHATOU 1_LA RAQUETTE DE VILLENEUVE D'ASCQ 1_Les équipesCOURBEVOIE SPORT TENNIS 1T.C. CHATOU 1ASLM TENNIS CANNES 1AIX LES BAINS TC 1LA RAQUETTE DE VILLENEUVE D'ASCQ 1AMICALE MANIN SPORT PARIS EST 1",
+    "titles": [
+      "Rencontre AMICALE MANIN SPORT PARIS EST 1 / AIX LES BAINS TC 1 du 26/04/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.882945,
+      "lng": 2.385943,
+      "city": "Paris",
+      "postcode": "75019"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE C",
+    "journee": "Journée 1",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494699/rencontre/9491971",
+    "rawText": "Nationale 1POULESPOULE CLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux COURBEVOIE SPORT TENNIS 10 T.C. CHATOU 10 ASLM TENNIS CANNES 10 AIX LES BAINS TC 10 LA RAQUETTE DE VILLENEUVE D'ASCQ 10 AMICALE MANIN SPORT PARIS EST 10 Le calendrier des rencontresJournée 126/04/2026Litige résoluLitige en coursRencontre reportableCOURBEVOIE SPORT TENNIS 1_ASLM TENNIS CANNES 1_26/04/2026Litige résoluLitige en coursRencontre reportableAMICALE MANIN SPORT PARIS EST 1_AIX LES BAINS TC 1_26/04/2026Litige résoluLitige en coursRencontre reportableT.C. CHATOU 1_LA RAQUETTE DE VILLENEUVE D'ASCQ 1_Les équipesCOURBEVOIE SPORT TENNIS 1T.C. CHATOU 1ASLM TENNIS CANNES 1AIX LES BAINS TC 1LA RAQUETTE DE VILLENEUVE D'ASCQ 1AMICALE MANIN SPORT PARIS EST 1",
+    "titles": [
+      "Rencontre T.C. CHATOU 1 / LA RAQUETTE DE VILLENEUVE D'ASCQ 1 du 26/04/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.896627,
+      "lng": 2.148267,
+      "city": "Chatou",
+      "postcode": "78400"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE C",
+    "journee": "Journée 2",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494699/rencontre/9491962",
+    "rawText": "Nationale 1POULESPOULE CLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux COURBEVOIE SPORT TENNIS 10 T.C. CHATOU 10 ASLM TENNIS CANNES 10 AIX LES BAINS TC 10 LA RAQUETTE DE VILLENEUVE D'ASCQ 10 AMICALE MANIN SPORT PARIS EST 10 Le calendrier des rencontresJournée 203/05/2026Litige résoluLitige en coursRencontre reportableLA RAQUETTE DE VILLENEUVE D'ASCQ 1_COURBEVOIE SPORT TENNIS 1_03/05/2026Litige résoluLitige en coursRencontre reportableAIX LES BAINS TC 1_T.C. CHATOU 1_03/05/2026Litige résoluLitige en coursRencontre reportableASLM TENNIS CANNES 1_AMICALE MANIN SPORT PARIS EST 1_Les équipesCOURBEVOIE SPORT TENNIS 1T.C. CHATOU 1ASLM TENNIS CANNES 1AIX LES BAINS TC 1LA RAQUETTE DE VILLENEUVE D'ASCQ 1AMICALE MANIN SPORT PARIS EST 1",
+    "titles": [
+      "Rencontre LA RAQUETTE DE VILLENEUVE D'ASCQ 1 / COURBEVOIE SPORT TENNIS 1 du 03/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 50.62547,
+      "lng": 3.151751,
+      "city": "Villeneuve-d'Ascq",
+      "postcode": "59650"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE C",
+    "journee": "Journée 2",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494699/rencontre/9491964",
+    "rawText": "Nationale 1POULESPOULE CLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux COURBEVOIE SPORT TENNIS 10 T.C. CHATOU 10 ASLM TENNIS CANNES 10 AIX LES BAINS TC 10 LA RAQUETTE DE VILLENEUVE D'ASCQ 10 AMICALE MANIN SPORT PARIS EST 10 Le calendrier des rencontresJournée 203/05/2026Litige résoluLitige en coursRencontre reportableLA RAQUETTE DE VILLENEUVE D'ASCQ 1_COURBEVOIE SPORT TENNIS 1_03/05/2026Litige résoluLitige en coursRencontre reportableAIX LES BAINS TC 1_T.C. CHATOU 1_03/05/2026Litige résoluLitige en coursRencontre reportableASLM TENNIS CANNES 1_AMICALE MANIN SPORT PARIS EST 1_Les équipesCOURBEVOIE SPORT TENNIS 1T.C. CHATOU 1ASLM TENNIS CANNES 1AIX LES BAINS TC 1LA RAQUETTE DE VILLENEUVE D'ASCQ 1AMICALE MANIN SPORT PARIS EST 1",
+    "titles": [
+      "Rencontre AIX LES BAINS TC 1 / T.C. CHATOU 1 du 03/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 45.689428,
+      "lng": 5.91461,
+      "city": "Aix-les-Bains",
+      "postcode": "73100"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE C",
+    "journee": "Journée 2",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494699/rencontre/9491974",
+    "rawText": "Nationale 1POULESPOULE CLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux COURBEVOIE SPORT TENNIS 10 T.C. CHATOU 10 ASLM TENNIS CANNES 10 AIX LES BAINS TC 10 LA RAQUETTE DE VILLENEUVE D'ASCQ 10 AMICALE MANIN SPORT PARIS EST 10 Le calendrier des rencontresJournée 203/05/2026Litige résoluLitige en coursRencontre reportableLA RAQUETTE DE VILLENEUVE D'ASCQ 1_COURBEVOIE SPORT TENNIS 1_03/05/2026Litige résoluLitige en coursRencontre reportableAIX LES BAINS TC 1_T.C. CHATOU 1_03/05/2026Litige résoluLitige en coursRencontre reportableASLM TENNIS CANNES 1_AMICALE MANIN SPORT PARIS EST 1_Les équipesCOURBEVOIE SPORT TENNIS 1T.C. CHATOU 1ASLM TENNIS CANNES 1AIX LES BAINS TC 1LA RAQUETTE DE VILLENEUVE D'ASCQ 1AMICALE MANIN SPORT PARIS EST 1",
+    "titles": [
+      "Rencontre ASLM TENNIS CANNES 1 / AMICALE MANIN SPORT PARIS EST 1 du 03/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 43.555468,
+      "lng": 7.004585,
+      "city": "Cannes",
+      "postcode": "06150"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE C",
+    "journee": "Journée 3",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494699/rencontre/9491969",
+    "rawText": "Nationale 1POULESPOULE CLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux COURBEVOIE SPORT TENNIS 10 T.C. CHATOU 10 ASLM TENNIS CANNES 10 AIX LES BAINS TC 10 LA RAQUETTE DE VILLENEUVE D'ASCQ 10 AMICALE MANIN SPORT PARIS EST 10 Le calendrier des rencontresJournée 310/05/2026Litige résoluLitige en coursRencontre reportableCOURBEVOIE SPORT TENNIS 1_AIX LES BAINS TC 1_10/05/2026Litige résoluLitige en coursRencontre reportableASLM TENNIS CANNES 1_LA RAQUETTE DE VILLENEUVE D'ASCQ 1_10/05/2026Litige résoluLitige en coursRencontre reportableT.C. CHATOU 1_AMICALE MANIN SPORT PARIS EST 1_Les équipesCOURBEVOIE SPORT TENNIS 1T.C. CHATOU 1ASLM TENNIS CANNES 1AIX LES BAINS TC 1LA RAQUETTE DE VILLENEUVE D'ASCQ 1AMICALE MANIN SPORT PARIS EST 1",
+    "titles": [
+      "Rencontre COURBEVOIE SPORT TENNIS 1 / AIX LES BAINS TC 1 du 10/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.8998,
+      "lng": 2.267996,
+      "city": "Courbevoie",
+      "postcode": "92400"
     }
   }
 ]
