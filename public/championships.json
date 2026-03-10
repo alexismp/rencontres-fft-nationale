@@ -1,0 +1,47 @@
+[
+  {
+    "id": "champ_1",
+    "url": "https://tenup.fft.fr/championnat/82543588",
+    "title": "Championnats de France Interclubs Seniors Messieurs 2026",
+    "gender": "M",
+    "divisions": [
+      "PRO A",
+      "PRO B",
+      "NATIONALE 1",
+      "NATIONALE 2",
+      "NATIONALE 3",
+      "NATIONALE 4"
+    ]
+  },
+  {
+    "id": "champ_2",
+    "url": "https://tenup.fft.fr/championnat/82543587",
+    "title": "Championnats de France Interclubs Seniors Dames 2026",
+    "gender": "F",
+    "divisions": [
+      "PRO A",
+      "PRO B",
+      "NATIONALE 1",
+      "NATIONALE 2",
+      "NATIONALE 3"
+    ]
+  },
+  {
+    "id": "29f62260-4c84-4d0f-9774-8ca76341f92a",
+    "url": "https://tenup.fft.fr/championnat/82566680",
+    "title": "Prénationale Ile de France Dames",
+    "gender": "F",
+    "divisions": [
+      "DIVISION 1"
+    ]
+  },
+  {
+    "id": "4f70bc0c-7dca-4742-b201-7ae1d1d37d2f",
+    "url": "https://tenup.fft.fr/championnat/82566679",
+    "title": "Prénationale Ile de France Messieurs",
+    "gender": "M",
+    "divisions": [
+      "DIVISION 1"
+    ]
+  }
+]

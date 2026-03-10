@@ -51,17 +51,17 @@ export async function GET() {
 }
 
 export async function POST(request: Request) {
-    let divisions = ['NATIONALE 1_M', 'NATIONALE 2_M', 'NATIONALE 3_M', 'NATIONALE 4_M', 'NATIONALE 1_F', 'NATIONALE 2_F', 'NATIONALE 3_F'];
+    let championshipsToScrape: any[] = [];
     try {
         const body = await request.json();
-        if (body.divisions && Array.isArray(body.divisions) && body.divisions.length > 0) {
-            divisions = body.divisions;
+        if (body.championships && Array.isArray(body.championships) && body.championships.length > 0) {
+            championshipsToScrape = body.championships;
         }
     } catch (e) { }
 
     // Start background scraping
     updateStatus({ isRunning: true, progress: "Starting scrape...", stopRequested: false });
-    scrapeBackground(divisions).catch(err => {
+    scrapeBackground(championshipsToScrape).catch(err => {
         console.error("Scraping error:", err);
         updateStatus({ isRunning: false, progress: "Error: " + err.message });
     });
@@ -76,7 +76,7 @@ export async function DELETE(request: Request) {
     return NextResponse.json({ success: true });
 }
 
-async function scrapeBackground(divisions: string[]) {
+async function scrapeBackground(championships: any[]) {
     const browser = await chromium.launch({ headless: true });
     const context = await browser.newContext({ userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' });
 
@@ -96,16 +96,11 @@ async function scrapeBackground(divisions: string[]) {
         return globalAny.scraperStatus.stopRequested === true;
     };
 
-    const urlsAndDivs = [
-        { url: 'https://tenup.fft.fr/championnat/82543588', gender: 'M', divs: divisions.filter(d => !d.endsWith('_F')).map(d => d.replace('_M', '')) },
-        { url: 'https://tenup.fft.fr/championnat/82543587', gender: 'F', divs: divisions.filter(d => d.endsWith('_F')).map(d => d.replace('_F', '')) }
-    ];
-
-    for (const group of urlsAndDivs) {
+    for (const group of championships) {
         if (checkStop()) break;
-        if (group.divs.length === 0) continue;
+        if (!group.divisions || group.divisions.length === 0) continue;
 
-        updateStatus({ isRunning: true, progress: `Navigating to ${group.gender === 'M' ? 'Mens' : 'Womens'} championship...` });
+        updateStatus({ isRunning: true, progress: `Navigating to ${group.title || 'championship'}...` });
         await page.goto(group.url, { waitUntil: 'networkidle', timeout: 60000 });
 
         try {
@@ -118,19 +113,33 @@ async function scrapeBackground(divisions: string[]) {
             console.log(`[SCRAPER] No cookie banner found, moving on.`);
         }
 
-        for (const div of group.divs) {
+        for (const div of group.divisions) {
             if (checkStop()) break;
-            updateStatus({ isRunning: true, progress: `Processing ${div} (${group.gender})...` });
+            updateStatus({ isRunning: true, progress: `Processing ${div} (${group.gender || '?'})...` });
 
             try {
                 console.log(`[SCRAPER] Opening Division dropdown...`);
-                // Assume PRO A is the active button indicating the dropdown
-                await page.locator('text=PRO A').first().click();
-                await page.waitForTimeout(500);
+                // Find the active division button
+                const candidateDivButtons = await page.$$('button');
+                let clickedDiv = false;
+                for (const btn of candidateDivButtons) {
+                    const text = await btn.textContent() || '';
+                    const cleanText = text.trim().toUpperCase();
+                    if (cleanText.match(/PRO [A-Z]|NATIONALE \d|DIVISION|EXCELLENCE|HONNEUR|LIGUE|CHAMPIONNAT/)) {
+                        await btn.click();
+                        clickedDiv = true;
+                        break;
+                    }
+                }
 
-                console.log(`[SCRAPER] Selecting division: ${div}...`);
-                await page.locator(`text=${div}`).first().click();
-                await page.waitForTimeout(4000);
+                if (clickedDiv) {
+                    await page.waitForTimeout(500);
+                    console.log(`[SCRAPER] Selecting division: ${div}...`);
+                    await page.locator(`text=${div}`).first().click();
+                    await page.waitForTimeout(4000);
+                } else {
+                    console.log(`[SCRAPER] Could not find division dropdown button.`);
+                }
             } catch (e) {
                 console.error(`[SCRAPER] Could not select division ${div}:`, e);
                 continue;
@@ -180,7 +189,7 @@ async function scrapeBackground(divisions: string[]) {
                     updateStatus({ isRunning: true, progress: `Processing ${div} - ${poule} - ${journeeText}...` });
 
                     // Remove existing matches for this exact combination to allow override
-                    matches = matches.filter(m => !(m.gender === group.gender && m.division === div && m.poule === poule && m.journee === journeeText));
+                    matches = matches.filter(m => !(m.championshipId === group.id && m.division === div && m.poule === poule && m.journee === journeeText));
                     fs.writeFileSync(MATCHES_FILE, JSON.stringify(matches, null, 2));
 
                     if (journeeText !== currentJournee) {
@@ -231,28 +240,31 @@ async function scrapeBackground(divisions: string[]) {
                                 let league = '';
 
                                 try {
-                                    // Wait specifically for the match header card to be visible in the DOM, using a regular expression for both gender divisions
-                                    const headerLocator = p2.locator('.bg-white', { hasText: /Interclubs Seniors/i }).first();
+                                    // Wait for a card containing team links (which always exist on match scorecards)
+                                    const headerLocator = p2.locator('.bg-white', { has: p2.locator('a[href*="/equipe/"]') }).first();
                                     await headerLocator.waitFor({ state: 'visible', timeout: 6000 });
 
-                                    const matchHeaderText = await headerLocator.textContent() || '';
-
-                                    // E.g.:
-                                    // <div class="grid min-w-0 gap-2"><div class="flex flex-col truncate ..."><div class="my-auto flex flex-col text-center">
-                                    // <div class="flex ..."><a ...>TC LE TOUQUET 1</a></div><p class="truncate max-lg:text-sm"> (HAUTS DE FRANCE) </p>
-                                    // We take the FIRST `<p>` block inside the grid, as that corresponds to the Receiving Team (Team 1).
-                                    // Instead of relying on a fragile CSS selector that might not attach in time,
-                                    // we grab the innerHTML of the header and extract the first league text (which belongs to the home team).
                                     const headerHtml = await headerLocator.innerHTML();
-                                    const matchFirstTeam = headerHtml.match(/<div class="grid min-w-0 gap-2">[\s\S]*?<p class="truncate[^>]*>(.*?)<\/p>/);
+                                    
+                                    // Match `(HAUTS DE FRANCE)` style for old nationales
+                                    const matchFirstTeam = headerHtml.match(/<div class="grid min-w-0 gap-2">[\s\S]*?<p class="truncate[^>]*>\s*\((.*?)\)\s*<\/p>/);
                                     
                                     if (matchFirstTeam) {
-                                        league = matchFirstTeam[1].replace(/[()]/g, '').trim().toUpperCase();
+                                        league = matchFirstTeam[1].trim().toUpperCase();
                                         isIdF = league.includes('ILE DE FRANCE') || league.includes('PARIS');
+                                    } else {
+                                        // Attempt to read the alt text at the bottom for regional championships
+                                        const altMatch = headerHtml.match(/<p class="mt-4 flex text-sm[^>]*>([\s\S]*?)<a/);
+                                        if (altMatch) {
+                                            const rawDesc = altMatch[1].trim().toUpperCase();
+                                            // E.g 'PRÉNATIONALE ILE DE FRANCE DAMES'
+                                            if (rawDesc.includes('ILE DE FRANCE')) league = 'ILE DE FRANCE';
+                                            else league = rawDesc; // Just store it, though it might be messy
+                                            isIdF = league.includes('ILE DE FRANCE') || league.includes('PARIS');
+                                        }
                                     }
                                 } catch (timeoutErr) {
-                                    // If the page failed to render the match content properly, we cannot safely assume it's IdF
-                                    console.log(`[SCRAPER] Timeout waiting for match header on ${card.matchLink}`);
+                                    console.log(`[SCRAPER] Timeout waiting for match header scorecard on ${card.matchLink}`);
                                 }
 
                                 if (league) {
@@ -277,7 +289,35 @@ async function scrapeBackground(divisions: string[]) {
                                             }
                                         } else {
                                             try {
-                                                const res = await fetch('https://api-adresse.data.gouv.fr/search/?q=' + encodeURIComponent(homeClubName) + '&limit=5');
+                                                const manualAliases: Record<string, string> = {
+                                                    "A.S MANTAISE": "MANTES LA JOLIE",
+                                                    "ARCHAMPS BOSSEY TC": "ARCHAMPS",
+                                                    "CHERBOURG AS-BR TENNIS": "CHERBOURG",
+                                                    "COLOMBES (TC)": "COLOMBES",
+                                                    "COSD-TCB": "SAINT DIZIER",
+                                                    "LUZIEN TC": "SAINT JEAN DE LUZ",
+                                                    "NEMOURS ST PIERRE US TENNIS": "SAINT PIERRE LES NEMOURS",
+                                                    "T.C QUEIREL ST-LOUP": "MARSEILLE",
+                                                    "T.C. BAILLY NOISY LE ROI": "BAILLY",
+                                                    "TC PADEL REICHSTETT": "REICHSTETT",
+                                                    "TM OLLIOULAIS": "OLLIOULES",
+                                                    "V.G.A. SAINT MAUR": "SAINT MAUR DES FOSSES"
+                                                };
+
+                                                let searchCity = manualAliases[homeClubName];
+                                                if (!searchCity) {
+                                                    searchCity = homeClubName.toUpperCase()
+                                                        .replace(/\b(T\.C\.|TC|US|A\.S\.|AS|TENNIS CLUB|TENNIS|CLUB|ASSOCIATION|SPORTS|SPORT|COUNTRY|METROPOLE)\b/g, '')
+                                                        .replace(/\([^)]*\)/g, '')
+                                                        .replace(/-/g, ' ')
+                                                        .replace(/\s+/g, ' ')
+                                                        .trim();
+                                                }
+
+                                                // Fallback to original if completely empty
+                                                if (!searchCity) searchCity = homeClubName;
+
+                                                const res = await fetch('https://api-adresse.data.gouv.fr/search/?q=' + encodeURIComponent(searchCity) + '&limit=5');
                                                 const data = await res.json();
                                                 let loc: any = { error: "Not found" };
                                                 if (data.features && data.features.length > 0) {
@@ -310,8 +350,14 @@ async function scrapeBackground(divisions: string[]) {
                                     }
                                 }
 
+                                if (!league && location && location.league) {
+                                    league = location.league;
+                                    isIdF = league === 'ILE DE FRANCE';
+                                }
+
                                 matches.push({
-                                    gender: group.gender,
+                                    championshipId: group.id,
+                                    gender: group.gender || '?',
                                     division: div,
                                     poule: poule,
                                     journee: journeeText,

@@ -1397,7 +1397,11 @@
     "league": "HAUTS DE FRANCE"
   },
   "DAX US": {
-    "error": "Not found"
+    "lat": 43.700723,
+    "lng": -1.06016,
+    "city": "Dax",
+    "postcode": "40100",
+    "league": "NOUVELLE AQUITAINE"
   },
   "US SMASH CLUB ENTRAIGUES": {
     "lat": 44.005275,
@@ -1743,7 +1747,11 @@
     "league": "NOUVELLE AQUITAINE"
   },
   "T.C. DE GORRON": {
-    "error": "Not found"
+    "lat": 48.420028,
+    "lng": -0.803042,
+    "city": "Gorron",
+    "postcode": "53120",
+    "league": "PAYS DE LA LOIRE"
   },
   "ROISSY EN BRIE AST": {
     "lat": 48.793178,
@@ -1753,7 +1761,11 @@
     "league": "ILE DE FRANCE"
   },
   "A.S MANTAISE": {
-    "error": "Not found"
+    "lat": 48.994782,
+    "lng": 1.699745,
+    "city": "Mantes-la-Jolie",
+    "postcode": "78200",
+    "league": "ILE DE FRANCE"
   },
   "TENNIS CLUB TARASCON": {
     "lat": 45.499871,
@@ -1784,10 +1796,18 @@
     "league": "OCCITANIE"
   },
   "CHERBOURG AS-BR TENNIS": {
-    "error": "Not found"
+    "lat": 48.843038,
+    "lng": 2.523764,
+    "city": "Bry-sur-Marne",
+    "postcode": "94360",
+    "league": "ILE DE FRANCE"
   },
   "TM OLLIOULAIS": {
-    "error": "Not found"
+    "lat": 43.134973,
+    "lng": 5.853916,
+    "city": "Ollioules",
+    "postcode": "83190",
+    "league": "PROVENCE ALPES COTE D'AZUR"
   },
   "TC NOGENT": {
     "lat": 46.761436,
@@ -1797,7 +1817,11 @@
     "league": "BOURGOGNE FRANCHE COMTE"
   },
   "ARCHAMPS BOSSEY TC": {
-    "error": "Not found"
+    "lat": 46.135218,
+    "lng": 6.132458,
+    "city": "Archamps",
+    "postcode": "74160",
+    "league": "AUVERGNE RHONE-ALPES"
   },
   "CLAMART (TC)": {
     "lat": 47.574611,
@@ -1912,7 +1936,11 @@
     "league": "OCCITANIE"
   },
   "T.C QUEIREL ST-LOUP": {
-    "error": "Not found"
+    "lat": 43.282,
+    "lng": 5.405,
+    "city": "Marseille",
+    "postcode": "13001",
+    "league": "PROVENCE ALPES COTE D'AZUR"
   },
   "ISLE JOURDAIN TENNIS CLUB": {
     "lat": 43.613719,
@@ -1922,14 +1950,18 @@
     "league": "OCCITANIE"
   },
   "AS CERCLE DU BOIS DE BOULOGNE": {
-    "lat": 43.471756,
-    "lng": 5.953705,
-    "city": "Bras",
-    "postcode": "83149",
-    "league": "PROVENCE ALPES COTE D'AZUR"
+    "lat": 48.874373,
+    "lng": 2.261249,
+    "city": "Paris",
+    "postcode": "75016",
+    "league": "ILE DE FRANCE"
   },
   "BEAUNE T.C.": {
-    "error": "Not found"
+    "lat": 47.025352,
+    "lng": 4.840893,
+    "city": "Beaune",
+    "postcode": "21200",
+    "league": "BOURGOGNE FRANCHE COMTE"
   },
   "TENNIS CLUB SORGUAIS": {
     "lat": 45.499871,
@@ -1946,7 +1978,11 @@
     "league": "GRAND EST"
   },
   "BETTON AT": {
-    "error": "Not found"
+    "lat": 48.178922,
+    "lng": -1.64138,
+    "city": "Betton",
+    "postcode": "35830",
+    "league": "BRETAGNE"
   },
   "TC de l'Estuaire": {
     "lat": 47.534133,
@@ -1956,7 +1992,11 @@
     "league": "BRETAGNE"
   },
   "T.C. ORSAY": {
-    "error": "Not found"
+    "lat": 48.696558,
+    "lng": 2.190707,
+    "city": "Orsay",
+    "postcode": "91400",
+    "league": "ILE DE FRANCE"
   },
   "HAILLAN TC": {
     "lat": 45.259298,
@@ -1973,7 +2013,11 @@
     "league": "ILE DE FRANCE"
   },
   "THYEZ T.C.": {
-    "error": "Not found"
+    "lat": 46.089515,
+    "lng": 6.535773,
+    "city": "Thyez",
+    "postcode": "74300",
+    "league": "AUVERGNE RHONE-ALPES"
   },
   "MOULINS LES METZ TC": {
     "lat": 46.150859,
@@ -1990,7 +2034,11 @@
     "league": "GRAND EST"
   },
   "TC LILLOIS LILLE METROPOLE": {
-    "error": "Not found"
+    "lat": 50.630951,
+    "lng": 3.045391,
+    "city": "Lille",
+    "postcode": "59000",
+    "league": "HAUTS DE FRANCE"
   },
   "TENNIS CLUB MARSEILLE": {
     "lat": 45.499871,
@@ -2000,7 +2048,11 @@
     "league": "NOUVELLE AQUITAINE"
   },
   "LUZIEN TC": {
-    "error": "Not found"
+    "lat": 41.935324,
+    "lng": 8.790635,
+    "city": "Ajaccio",
+    "postcode": "20090",
+    "league": ""
   },
   "TC SAINT CYRIEN": {
     "lat": 47.656169,
@@ -2010,7 +2062,11 @@
     "league": "BRETAGNE"
   },
   "COSD-TCB": {
-    "error": "Not found"
+    "lat": 48.638926,
+    "lng": 4.957021,
+    "city": "Saint-Dizier",
+    "postcode": "52100",
+    "league": "GRAND EST"
   },
   "REMIREMONT TC": {
     "lat": 48.013284,
@@ -2047,7 +2103,11 @@
     "league": "NOUVELLE AQUITAINE"
   },
   "TC PADEL REICHSTETT": {
-    "error": "Not found"
+    "lat": 48.652489,
+    "lng": 7.751219,
+    "city": "Reichstett",
+    "postcode": "67116",
+    "league": "GRAND EST"
   },
   "BEAUVAIS OISE TENNIS": {
     "lat": 49.441494,
@@ -2055,5 +2115,166 @@
     "city": "Beauvais",
     "postcode": "60000",
     "league": "HAUTS DE FRANCE"
+  },
+  "CHATILLONNAIS (TCM)": {
+    "lat": 48.809444,
+    "lng": 2.289045,
+    "city": "Châtillon",
+    "postcode": "92320",
+    "league": "ILE DE FRANCE"
+  },
+  "CHEMINOT VAUGIRARD T.C": {
+    "lat": 48.859,
+    "lng": 2.347,
+    "city": "Paris",
+    "postcode": "75001",
+    "league": "ILE DE FRANCE"
+  },
+  "T.C. PALAISEAU": {
+    "lat": 48.716454,
+    "lng": 2.232499,
+    "city": "Palaiseau",
+    "postcode": "91120",
+    "league": "ILE DE FRANCE"
+  },
+  "C.A.L. TC L'HAY LES ROSES": {
+    "lat": 48.776851,
+    "lng": 2.341995,
+    "city": "L'Haÿ-les-Roses",
+    "postcode": "94240",
+    "league": "ILE DE FRANCE"
+  },
+  "COULOMMIERS TC": {
+    "lat": 48.813927,
+    "lng": 3.091115,
+    "city": "Coulommiers",
+    "postcode": "77120",
+    "league": "ILE DE FRANCE"
+  },
+  "NICOLAITE DE CHAILLOT": {
+    "lat": 48.867149,
+    "lng": 2.297238,
+    "city": "Paris",
+    "postcode": "75016",
+    "league": "ILE DE FRANCE"
+  },
+  "T.C. ST LOUIS DE POISSY": {
+    "lat": 48.930299,
+    "lng": 2.033457,
+    "city": "Poissy",
+    "postcode": "78300",
+    "league": "ILE DE FRANCE"
+  },
+  "T.C. LONGJUMEAU": {
+    "lat": 48.691415,
+    "lng": 2.3016,
+    "city": "Longjumeau",
+    "postcode": "91160",
+    "league": "ILE DE FRANCE"
+  },
+  "V.G.A. SAINT MAUR": {
+    "lat": 48.799943,
+    "lng": 2.491801,
+    "city": "Saint-Maur-des-Fossés",
+    "postcode": "94100",
+    "league": "ILE DE FRANCE"
+  },
+  "ARGENTEUIL TENNIS CLUB": {
+    "lat": 48.961198,
+    "lng": 2.247624,
+    "city": "Argenteuil",
+    "postcode": "95100",
+    "league": "ILE DE FRANCE"
+  },
+  "T.C. CROISSY SUR SEINE": {
+    "lat": 48.879936,
+    "lng": 2.136022,
+    "city": "Croissy-sur-Seine",
+    "postcode": "78290",
+    "league": "ILE DE FRANCE"
+  },
+  "T.C. JOSASSIEN": {
+    "lat": 48.77099,
+    "lng": 2.167839,
+    "city": "Jouy-en-Josas",
+    "postcode": "78350",
+    "league": "ILE DE FRANCE"
+  },
+  "T.C. VILLEBON": {
+    "lat": 48.697891,
+    "lng": 2.235425,
+    "city": "Villebon-sur-Yvette",
+    "postcode": "91140",
+    "league": "ILE DE FRANCE"
+  },
+  "T.S. MAISONS LAFFITTE": {
+    "lat": 48.951168,
+    "lng": 2.151409,
+    "city": "Maisons-Laffitte",
+    "postcode": "78600",
+    "league": "ILE DE FRANCE"
+  },
+  "LA CLAIRIERE RAMBOUILLET T.C.": {
+    "lat": 48.652151,
+    "lng": 1.856615,
+    "city": "Rambouillet",
+    "postcode": "78120",
+    "league": "ILE DE FRANCE"
+  },
+  "CM AUBERVILLIERS": {
+    "lat": 48.912878,
+    "lng": 2.386167,
+    "city": "Aubervilliers",
+    "postcode": "93300",
+    "league": "ILE DE FRANCE"
+  },
+  "A.S. CORBEIL ESSONNES": {
+    "lat": 48.616692,
+    "lng": 2.482717,
+    "city": "Corbeil-Essonnes",
+    "postcode": "91100",
+    "league": "ILE DE FRANCE"
+  },
+  "COUNTRY SPORTS CLUB ASSOCIATION": {
+    "lat": 48.830473,
+    "lng": 2.508872,
+    "city": "Le Perreux-sur-Marne",
+    "postcode": "94170",
+    "league": "ILE DE FRANCE"
+  },
+  "NEMOURS ST PIERRE US TENNIS": {
+    "lat": 48.265252,
+    "lng": 2.675425,
+    "city": "Saint-Pierre-lès-Nemours",
+    "postcode": "77140",
+    "league": "ILE DE FRANCE"
+  },
+  "T.C. BAILLY NOISY LE ROI": {
+    "lat": 48.843359,
+    "lng": 2.076812,
+    "city": "Bailly",
+    "postcode": "78870",
+    "league": "ILE DE FRANCE"
+  },
+  "U.S. MARLY LE ROI": {
+    "lat": 48.875287,
+    "lng": 2.092406,
+    "city": "Marly-le-Roi",
+    "postcode": "78160",
+    "league": "ILE DE FRANCE"
+  },
+  "COLOMBES (TC)": {
+    "lat": 48.922535,
+    "lng": 2.247799,
+    "city": "Colombes",
+    "postcode": "92700",
+    "league": "ILE DE FRANCE"
+  },
+  "TENNIS CLUB PARISIEN DE JOINVILLE": {
+    "lat": 48.754294,
+    "lng": 2.222606,
+    "city": "Bièvres",
+    "postcode": "91570",
+    "league": "ILE DE FRANCE"
   }
 }

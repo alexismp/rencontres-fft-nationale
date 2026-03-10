@@ -8,7 +8,11 @@ export default function Home() {
     const [dateFilter, setDateFilter] = useState('');
     const [viewDivisionFilter, setViewDivisionFilter] = useState('');
     const [genderFilter, setGenderFilter] = useState('');
-    const [selectedDivisions, setSelectedDivisions] = useState(['NATIONALE 1_M', 'NATIONALE 2_M', 'NATIONALE 3_M', 'NATIONALE 4_M', 'NATIONALE 1_F', 'NATIONALE 2_F', 'NATIONALE 3_F']);
+    const [championships, setChampionships] = useState<any[]>([]);
+    const [selectedChampDivisions, setSelectedChampDivisions] = useState<Record<string, string[]>>({});
+    const [newChampUrl, setNewChampUrl] = useState('');
+    const [addingChamp, setAddingChamp] = useState(false);
+    const [errorMsg, setErrorMsg] = useState('');
     const [selectedLeague, setSelectedLeague] = useState('');
     const [userAddress, setUserAddress] = useState('');
     const [userCoords, setUserCoords] = useState<{ lat: number, lng: number } | null>(null);
@@ -16,13 +20,12 @@ export default function Home() {
     const [locating, setLocating] = useState(false);
     const [isAnalysisOpen, setIsAnalysisOpen] = useState(false);
 
-    const toggleDivision = (div: string) => {
-        if (selectedDivisions.includes(div)) {
-            if (selectedDivisions.length > 1) {
-                setSelectedDivisions(selectedDivisions.filter(d => d !== div));
-            }
+    const toggleDivisionList = (champId: string, div: string) => {
+        const current = selectedChampDivisions[champId] || [];
+        if (current.includes(div)) {
+            setSelectedChampDivisions({ ...selectedChampDivisions, [champId]: current.filter(d => d !== div) });
         } else {
-            setSelectedDivisions([...selectedDivisions, div].sort());
+            setSelectedChampDivisions({ ...selectedChampDivisions, [champId]: [...current, div] });
         }
     };
 
@@ -44,9 +47,30 @@ export default function Home() {
         } catch (e) { }
     };
 
+    const fetchChampionships = async () => {
+        try {
+            const res = await fetch('/api/championships');
+            if (res.ok) {
+                const data = await res.json();
+                setChampionships(data);
+
+                // Initialize selection if empty
+                if (Object.keys(selectedChampDivisions).length === 0 && data.length > 0) {
+                    const initialSelection: Record<string, string[]> = {};
+                    data.forEach((c: any) => {
+                        // By default, select all divisions
+                        initialSelection[c.id] = c.divisions || [];
+                    });
+                    setSelectedChampDivisions(initialSelection);
+                }
+            }
+        } catch (e) { }
+    };
+
     useEffect(() => {
         fetchStatus();
         fetchMatches(); // Initial load
+        fetchChampionships();
     }, []);
 
     useEffect(() => {
@@ -70,13 +94,64 @@ export default function Home() {
 
     const startScrape = async () => {
         setLoading(true);
-        await fetch('/api/scrape', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ divisions: selectedDivisions })
-        });
-        fetchStatus();
-        setTimeout(() => setLoading(false), 2000);
+        // Build the payload
+        const payload = championships.map(c => ({
+            id: c.id,
+            url: c.url,
+            gender: c.gender,
+            title: c.title,
+            divisions: selectedChampDivisions[c.id] || []
+        })).filter(c => c.divisions.length > 0);
+
+        try {
+            await fetch('/api/scrape', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ championships: payload })
+            });
+            fetchStatus();
+        } catch (e) { }
+        setLoading(false);
+    };
+
+    const addChampionship = async () => {
+        if (!newChampUrl) return;
+        setAddingChamp(true);
+        setErrorMsg('');
+        try {
+            const res = await fetch('/api/championships', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ url: newChampUrl })
+            });
+            const data = await res.json();
+            if (res.ok) {
+                setNewChampUrl('');
+                fetchChampionships();
+            } else {
+                setErrorMsg(data.error || 'Erreur lors de l\'ajout');
+            }
+        } catch (e: any) {
+            setErrorMsg(e.message);
+        }
+        setAddingChamp(false);
+    };
+
+    const deleteChampionship = async (id: string, title: string) => {
+        if (!window.confirm(`Voulez-vous vraiment supprimer le championnat "${title}" et tous ses matchs associés ?`)) {
+            return;
+        }
+        try {
+            const res = await fetch('/api/championships', {
+                method: 'DELETE',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ id })
+            });
+            if (res.ok) {
+                fetchChampionships();
+                fetchMatches(); // Refresh matches as some might be deleted
+            }
+        } catch (e) { }
     };
 
     const stopScrape = async () => {
@@ -88,17 +163,39 @@ export default function Home() {
         }, 1000);
     };
 
-    // Extract dates from matches (e.g. from titles: "Rencontre ... du 26/04/2026")
-    const uniqueDates = Array.from(new Set(matches.map(m => {
+    // Interdependent filter calculations
+    const getMatchDate = (m: any) => {
         const dateMatch = (m.titles || []).join(' ').match(/du (\d{2}\/\d{2}\/\d{4})/);
         return dateMatch ? dateMatch[1] : '';
-    }).filter(Boolean))).sort((a, b) => {
+    };
+
+    const availableDatesMatches = matches.filter(m => {
+        if (selectedLeague && m.league !== selectedLeague) return false;
+        if (viewDivisionFilter && m.division !== viewDivisionFilter) return false;
+        if (genderFilter && m.gender !== genderFilter) return false;
+        return true;
+    });
+    const uniqueDates = Array.from(new Set(availableDatesMatches.map(getMatchDate).filter(Boolean))).sort((a, b) => {
         const [d1, m1, y1] = a.split('/');
         const [d2, m2, y2] = b.split('/');
         return new Date(Number(y1), Number(m1) - 1, Number(d1)).getTime() - new Date(Number(y2), Number(m2) - 1, Number(d2)).getTime();
     });
 
-    const uniqueLeagues = Array.from(new Set(matches.map(m => m.league).filter(Boolean))).sort();
+    const availableLeaguesMatches = matches.filter(m => {
+        if (viewDivisionFilter && m.division !== viewDivisionFilter) return false;
+        if (genderFilter && m.gender !== genderFilter) return false;
+        if (dateFilter && getMatchDate(m) !== dateFilter) return false;
+        return true;
+    });
+    const uniqueLeagues = Array.from(new Set(availableLeaguesMatches.map(m => m.league).filter(Boolean))).sort();
+
+    const availableDivsMatches = matches.filter(m => {
+        if (selectedLeague && m.league !== selectedLeague) return false;
+        if (genderFilter && m.gender !== genderFilter) return false;
+        if (dateFilter && getMatchDate(m) !== dateFilter) return false;
+        return true;
+    });
+    const uniqueDivs = Array.from(new Set(availableDivsMatches.map(m => m.division).filter(Boolean))).sort();
 
     const handleLocate = async () => {
         if (!userAddress.trim()) {
@@ -200,10 +297,10 @@ export default function Home() {
                         <span>{status?.isRunning ? 'Scraping Active' : 'Idle'}</span>
                     </div>
                     <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-[#ebff00] to-white">
-                        TenUp IdF Explorer
+                        Championnats interclubs FFT
                     </h1>
                     <p className="text-lg text-[#e1e1f5]/70 max-w-2xl">
-                        Découvrez toutes les rencontres du Championnat de France interclubs 2026 messieurs (Nationale 1 à 4) et dames (Nationale 1 à 3).
+                        Découvrez toutes les rencontres des Championnats interclubs de la FFT dans une ligue, près de chez vous, ....
                     </p>
                 </header>
 
@@ -218,36 +315,84 @@ export default function Home() {
                     {isAnalysisOpen && (
                         <div className="space-y-6 pt-6 mt-6 border-t border-white/10">
                             <div className="flex flex-col md:flex-row gap-6 justify-between border-b border-white/10 pb-6">
-                                <div className="space-y-6">
-                                    <div className="space-y-3">
-                                        <h3 className="text-lg font-medium text-white">Divisions Messieurs</h3>
-                                        <div className="flex flex-wrap gap-3">
-                                            {['NATIONALE 1_M', 'NATIONALE 2_M', 'NATIONALE 3_M', 'NATIONALE 4_M'].map(div => (
+                                <div className="space-y-6 w-full">
+                                    {championships.map((champ: any) => (
+                                        <div key={champ.id} className="space-y-3 bg-[#151534]/50 p-4 rounded-2xl border border-white/5 relative group">
+                                            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                                                <div className="space-y-1 pr-12">
+                                                    <h3 className="text-lg font-medium text-white break-words">{champ.title || 'Championnat inconnu'}</h3>
+                                                    <a href={champ.url} target="_blank" rel="noopener noreferrer" className="text-sm text-[#e1e1f5]/50 hover:text-[#ebff00] underline truncate block max-w-xl">
+                                                        {champ.url}
+                                                    </a>
+                                                    {champ.divisions && champ.divisions.length > 1 && (
+                                                        <div className="flex gap-3 mt-2">
+                                                            <button
+                                                                onClick={() => setSelectedChampDivisions({ ...selectedChampDivisions, [champ.id]: champ.divisions })}
+                                                                className="text-xs text-[#2330a4] hover:text-[#ebff00] transition-colors"
+                                                            >
+                                                                Tout cocher
+                                                            </button>
+                                                            <button
+                                                                onClick={() => setSelectedChampDivisions({ ...selectedChampDivisions, [champ.id]: [] })}
+                                                                className="text-xs text-[#2330a4] hover:text-[#ebff00] transition-colors"
+                                                            >
+                                                                Tout décocher
+                                                            </button>
+                                                        </div>
+                                                    )}
+                                                </div>
                                                 <button
-                                                    key={div}
-                                                    onClick={() => toggleDivision(div)}
-                                                    disabled={status?.isRunning}
-                                                    className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${selectedDivisions.includes(div) ? 'bg-[#2330a4] text-white shadow-[0_0_15px_rgba(35,48,164,0.5)]' : 'bg-white/5 text-[#e1e1f5]/70 hover:bg-white/10'} disabled:opacity-50 disabled:cursor-not-allowed`}
+                                                    onClick={() => deleteChampionship(champ.id, champ.title)}
+                                                    className="absolute top-4 right-4 p-2 text-white/30 hover:text-red-500 hover:bg-red-500/10 rounded-full transition-colors"
+                                                    title="Supprimer ce championnat"
                                                 >
-                                                    {div.replace('_M', '')}
+                                                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
                                                 </button>
-                                            ))}
+                                            </div>
+
+                                            <div className="flex flex-wrap gap-2 pt-2">
+                                                {(champ.divisions || []).map((div: string) => {
+                                                    const isSelected = (selectedChampDivisions[champ.id] || []).includes(div);
+                                                    return (
+                                                        <button
+                                                            key={div}
+                                                            onClick={() => toggleDivisionList(champ.id, div)}
+                                                            disabled={status?.isRunning}
+                                                            className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${isSelected ? 'bg-[#2330a4] text-white shadow-[0_0_10px_rgba(35,48,164,0.5)]' : 'bg-white/5 text-[#e1e1f5]/70 hover:bg-white/10'} disabled:opacity-50 disabled:cursor-not-allowed`}
+                                                        >
+                                                            {div}
+                                                        </button>
+                                                    );
+                                                })}
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="space-y-3">
-                                        <h3 className="text-lg font-medium text-white">Divisions Dames</h3>
-                                        <div className="flex flex-wrap gap-3">
-                                            {['NATIONALE 1_F', 'NATIONALE 2_F', 'NATIONALE 3_F'].map(div => (
-                                                <button
-                                                    key={div}
-                                                    onClick={() => toggleDivision(div)}
-                                                    disabled={status?.isRunning}
-                                                    className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${selectedDivisions.includes(div) ? 'bg-[#2330a4] text-white shadow-[0_0_15px_rgba(35,48,164,0.5)]' : 'bg-white/5 text-[#e1e1f5]/70 hover:bg-white/10'} disabled:opacity-50 disabled:cursor-not-allowed`}
-                                                >
-                                                    {div.replace('_F', '')}
-                                                </button>
-                                            ))}
+                                    ))}
+
+                                    <div className="bg-[#151534]/30 p-4 rounded-2xl border border-dashed border-white/20">
+                                        <h4 className="text-sm font-medium text-white mb-3">Ajouter un championnat</h4>
+                                        <div className="flex flex-col sm:flex-row gap-3">
+                                            <input
+                                                type="url"
+                                                placeholder="https://tenup.fft.fr/championnat/..."
+                                                value={newChampUrl}
+                                                onChange={e => setNewChampUrl(e.target.value)}
+                                                onKeyDown={e => e.key === 'Enter' && addChampionship()}
+                                                disabled={addingChamp || status?.isRunning}
+                                                className="flex-grow bg-[#232346] border border-white/10 text-white rounded-xl px-4 py-3 focus:outline-none focus:border-[#ebff00] focus:ring-1 focus:ring-[#ebff00] transition-all placeholder:text-[#e1e1f5]/30 text-sm disabled:opacity-50"
+                                            />
+                                            <button
+                                                onClick={addChampionship}
+                                                disabled={!newChampUrl || addingChamp || status?.isRunning}
+                                                className="px-6 py-3 bg-[#ebff00]/10 text-[#ebff00] hover:bg-[#ebff00]/20 border border-[#ebff00]/30 font-medium rounded-xl transition-all disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap flex items-center justify-center gap-2"
+                                            >
+                                                {addingChamp ? (
+                                                    <><div className="w-4 h-4 border-2 border-[#ebff00] border-t-transparent rounded-full animate-spin"></div> Analyse...</>
+                                                ) : (
+                                                    'Ajouter'
+                                                )}
+                                            </button>
                                         </div>
+                                        {errorMsg && <p className="text-red-400 text-xs mt-2">{errorMsg}</p>}
                                     </div>
                                 </div>
                             </div>
@@ -349,10 +494,9 @@ export default function Home() {
                                         className="w-full bg-[#232346] border border-white/10 text-white rounded-xl px-4 py-3 focus:outline-none focus:border-[#2330a4] focus:ring-1 focus:ring-[#2330a4] transition-all appearance-none cursor-pointer"
                                     >
                                         <option value="">Toutes les divisions</option>
-                                        <option value="NATIONALE 1">NATIONALE 1</option>
-                                        <option value="NATIONALE 2">NATIONALE 2</option>
-                                        <option value="NATIONALE 3">NATIONALE 3</option>
-                                        <option value="NATIONALE 4">NATIONALE 4</option>
+                                        {uniqueDivs.map(div => (
+                                            <option key={div} value={div}>{div}</option>
+                                        ))}
                                     </select>
                                     <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-[#e1e1f5]/70">
                                         <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
@@ -365,9 +509,14 @@ export default function Home() {
                                         className="w-full bg-[#232346] border border-white/10 text-white rounded-xl px-4 py-3 focus:outline-none focus:border-[#2330a4] focus:ring-1 focus:ring-[#2330a4] transition-all appearance-none cursor-pointer"
                                     >
                                         <option value="">Toutes les dates</option>
-                                        {uniqueDates.map(date => (
-                                            <option key={date} value={date}>{date}</option>
-                                        ))}
+                                        {uniqueDates.map(date => {
+                                            const [d, m, y] = date.split('/');
+                                            const dateObj = new Date(Number(y), Number(m) - 1, Number(d));
+                                            const weekday = new Intl.DateTimeFormat('fr-FR', { weekday: 'long' }).format(dateObj);
+                                            const capitalizedWeekday = weekday.charAt(0).toUpperCase() + weekday.slice(1);
+
+                                            return <option key={date} value={date}>{`${capitalizedWeekday} ${date}`}</option>
+                                        })}
                                     </select>
                                     <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-[#e1e1f5]/70">
                                         <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
