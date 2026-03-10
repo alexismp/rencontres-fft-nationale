@@ -12778,5 +12778,41 @@
       "city": "Courbevoie",
       "postcode": "92400"
     }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE C",
+    "journee": "Journée 3",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494699/rencontre/9491972",
+    "rawText": "Nationale 1POULESPOULE CLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux COURBEVOIE SPORT TENNIS 10 T.C. CHATOU 10 ASLM TENNIS CANNES 10 AIX LES BAINS TC 10 LA RAQUETTE DE VILLENEUVE D'ASCQ 10 AMICALE MANIN SPORT PARIS EST 10 Le calendrier des rencontresJournée 310/05/2026Litige résoluLitige en coursRencontre reportableCOURBEVOIE SPORT TENNIS 1_AIX LES BAINS TC 1_10/05/2026Litige résoluLitige en coursRencontre reportableASLM TENNIS CANNES 1_LA RAQUETTE DE VILLENEUVE D'ASCQ 1_10/05/2026Litige résoluLitige en coursRencontre reportableT.C. CHATOU 1_AMICALE MANIN SPORT PARIS EST 1_Les équipesCOURBEVOIE SPORT TENNIS 1T.C. CHATOU 1ASLM TENNIS CANNES 1AIX LES BAINS TC 1LA RAQUETTE DE VILLENEUVE D'ASCQ 1AMICALE MANIN SPORT PARIS EST 1",
+    "titles": [
+      "Rencontre ASLM TENNIS CANNES 1 / LA RAQUETTE DE VILLENEUVE D'ASCQ 1 du 10/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 43.555468,
+      "lng": 7.004585,
+      "city": "Cannes",
+      "postcode": "06150"
+    }
+  },
+  {
+    "gender": "F",
+    "division": "NATIONALE 1",
+    "poule": "POULE C",
+    "journee": "Journée 3",
+    "matchUrl": "https://tenup.fft.fr/championnat/82543587/division/135350/phase/217999/poule/494699/rencontre/9491975",
+    "rawText": "Nationale 1POULESPOULE CLe classementClassementÉquipesPoints Rencontres disputées  Diff. Matchs  Diff. Sets  Diff. Jeux COURBEVOIE SPORT TENNIS 10 T.C. CHATOU 10 ASLM TENNIS CANNES 10 AIX LES BAINS TC 10 LA RAQUETTE DE VILLENEUVE D'ASCQ 10 AMICALE MANIN SPORT PARIS EST 10 Le calendrier des rencontresJournée 310/05/2026Litige résoluLitige en coursRencontre reportableCOURBEVOIE SPORT TENNIS 1_AIX LES BAINS TC 1_10/05/2026Litige résoluLitige en coursRencontre reportableASLM TENNIS CANNES 1_LA RAQUETTE DE VILLENEUVE D'ASCQ 1_10/05/2026Litige résoluLitige en coursRencontre reportableT.C. CHATOU 1_AMICALE MANIN SPORT PARIS EST 1_Les équipesCOURBEVOIE SPORT TENNIS 1T.C. CHATOU 1ASLM TENNIS CANNES 1AIX LES BAINS TC 1LA RAQUETTE DE VILLENEUVE D'ASCQ 1AMICALE MANIN SPORT PARIS EST 1",
+    "titles": [
+      "Rencontre T.C. CHATOU 1 / AMICALE MANIN SPORT PARIS EST 1 du 10/05/2026"
+    ],
+    "isIdF": false,
+    "location": {
+      "lat": 48.896627,
+      "lng": 2.148267,
+      "city": "Chatou",
+      "postcode": "78400"
+    }
   }
 ]
