@@ -538,13 +538,6 @@
     "postcode": "10370",
     "league": "GRAND EST"
   },
-  "AAJ BLOIS TENNIS CLUB": {
-    "lat": 48.754294,
-    "lng": 2.222606,
-    "city": "Bièvres",
-    "postcode": "91570",
-    "league": "ILE DE FRANCE"
-  },
   "AGEN ASPTT": {
     "lat": 44.202304,
     "lng": 0.631041,
@@ -1725,13 +1718,6 @@
     "postcode": "86460",
     "league": "NOUVELLE AQUITAINE"
   },
-  "CLUB TENNIS BEAUCOURTOIS": {
-    "lat": 48.754294,
-    "lng": 2.222606,
-    "city": "Bièvres",
-    "postcode": "91570",
-    "league": "ILE DE FRANCE"
-  },
   "FRANCONVILLE TC": {
     "lat": 48.98921,
     "lng": 2.224145,
@@ -2005,13 +1991,6 @@
     "postcode": "33180",
     "league": "NOUVELLE AQUITAINE"
   },
-  "TENNIS CLUB SEBASTIENNAIS": {
-    "lat": 48.754294,
-    "lng": 2.222606,
-    "city": "Bièvres",
-    "postcode": "91570",
-    "league": "ILE DE FRANCE"
-  },
   "THYEZ T.C.": {
     "lat": 46.089515,
     "lng": 6.535773,
@@ -2271,10 +2250,31 @@
     "league": "ILE DE FRANCE"
   },
   "TENNIS CLUB PARISIEN DE JOINVILLE": {
-    "lat": 48.754294,
-    "lng": 2.222606,
-    "city": "Bièvres",
-    "postcode": "91570",
+    "lat": 48.820327,
+    "lng": 2.471927,
+    "city": "Joinville-le-Pont",
+    "postcode": "94340",
     "league": "ILE DE FRANCE"
+  },
+  "AAJ BLOIS TENNIS CLUB": {
+    "lat": 47.581228,
+    "lng": 1.316533,
+    "city": "Blois",
+    "postcode": "41000",
+    "league": "CENTRE VAL DE LOIRE"
+  },
+  "CLUB TENNIS BEAUCOURTOIS": {
+    "lat": 47.487073,
+    "lng": 6.920877,
+    "city": "Beaucourt",
+    "postcode": "90500",
+    "league": "BOURGOGNE FRANCHE COMTE"
+  },
+  "TENNIS CLUB SEBASTIENNAIS": {
+    "lat": 47.199355,
+    "lng": -1.502678,
+    "city": "Saint-Sébastien-sur-Loire",
+    "postcode": "44230",
+    "league": "PAYS DE LA LOIRE"
   }
 }

@@ -291,8 +291,10 @@ async function scrapeBackground(championships: any[]) {
                                             try {
                                                 const manualAliases: Record<string, string> = {
                                                     "A.S MANTAISE": "MANTES LA JOLIE",
+                                                    "AAJ BLOIS TENNIS CLUB": "BLOIS",
                                                     "ARCHAMPS BOSSEY TC": "ARCHAMPS",
                                                     "CHERBOURG AS-BR TENNIS": "CHERBOURG",
+                                                    "CLUB TENNIS BEAUCOURTOIS": "90500 BEAUCOURT",
                                                     "COLOMBES (TC)": "COLOMBES",
                                                     "COSD-TCB": "SAINT DIZIER",
                                                     "LUZIEN TC": "SAINT JEAN DE LUZ",
@@ -300,6 +302,8 @@ async function scrapeBackground(championships: any[]) {
                                                     "T.C QUEIREL ST-LOUP": "MARSEILLE",
                                                     "T.C. BAILLY NOISY LE ROI": "BAILLY",
                                                     "TC PADEL REICHSTETT": "REICHSTETT",
+                                                    "TENNIS CLUB PARISIEN DE JOINVILLE": "JOINVILLE LE PONT",
+                                                    "TENNIS CLUB SEBASTIENNAIS": "SAINT SEBASTIEN SUR LOIRE",
                                                     "TM OLLIOULAIS": "OLLIOULES",
                                                     "V.G.A. SAINT MAUR": "SAINT MAUR DES FOSSES"
                                                 };
@@ -324,6 +328,7 @@ async function scrapeBackground(championships: any[]) {
                                                     const validFeature = data.features.find((f: any) => {
                                                         const pc = f.properties.postcode;
                                                         if (!pc) return false;
+                                                        if (f.properties.score && f.properties.score < 0.5) return false;
                                                         return !pc.startsWith('97') && !pc.startsWith('98');
                                                     });
 

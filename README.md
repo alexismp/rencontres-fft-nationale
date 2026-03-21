@@ -1,4 +1,4 @@
-# TenUp IdF Explorer
+# Rencontres par équipes FFT
 
 Ce projet est un explorateur des rencontres du Championnat de France interclubs de tennis (Messieurs, Nationales 1 à 4) se déroulant en région Île-de-France.
 

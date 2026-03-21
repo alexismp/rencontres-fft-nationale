@@ -5499,13 +5499,14 @@
     ],
     "isIdF": false,
     "location": {
-      "lat": 48.754294,
-      "lng": 2.222606,
-      "city": "Bièvres",
-      "postcode": "91570"
+      "lat": 47.581228,
+      "lng": 1.316533,
+      "city": "Blois",
+      "postcode": "41000",
+      "league": "CENTRE VAL DE LOIRE"
     },
     "gender": "M",
-    "league": "ILE DE FRANCE"
+    "league": "CENTRE VAL DE LOIRE"
   },
   {
     "division": "NATIONALE 3",
@@ -5632,13 +5633,14 @@
     ],
     "isIdF": false,
     "location": {
-      "lat": 48.754294,
-      "lng": 2.222606,
-      "city": "Bièvres",
-      "postcode": "91570"
+      "lat": 47.581228,
+      "lng": 1.316533,
+      "city": "Blois",
+      "postcode": "41000",
+      "league": "CENTRE VAL DE LOIRE"
     },
     "gender": "M",
-    "league": "ILE DE FRANCE"
+    "league": "CENTRE VAL DE LOIRE"
   },
   {
     "division": "NATIONALE 3",
@@ -13150,12 +13152,13 @@
     ],
     "isIdF": false,
     "location": {
-      "lat": 48.754294,
-      "lng": 2.222606,
-      "city": "Bièvres",
-      "postcode": "91570"
+      "lat": 47.487073,
+      "lng": 6.920877,
+      "city": "Beaucourt",
+      "postcode": "90500",
+      "league": "BOURGOGNE FRANCHE COMTE"
     },
-    "league": "ILE DE FRANCE"
+    "league": "BOURGOGNE FRANCHE COMTE"
   },
   {
     "gender": "F",
@@ -13188,12 +13191,13 @@
     ],
     "isIdF": false,
     "location": {
-      "lat": 48.754294,
-      "lng": 2.222606,
-      "city": "Bièvres",
-      "postcode": "91570"
+      "lat": 47.487073,
+      "lng": 6.920877,
+      "city": "Beaucourt",
+      "postcode": "90500",
+      "league": "BOURGOGNE FRANCHE COMTE"
     },
-    "league": "ILE DE FRANCE"
+    "league": "BOURGOGNE FRANCHE COMTE"
   },
   {
     "gender": "F",
@@ -13302,12 +13306,13 @@
     ],
     "isIdF": false,
     "location": {
-      "lat": 48.754294,
-      "lng": 2.222606,
-      "city": "Bièvres",
-      "postcode": "91570"
+      "lat": 47.487073,
+      "lng": 6.920877,
+      "city": "Beaucourt",
+      "postcode": "90500",
+      "league": "BOURGOGNE FRANCHE COMTE"
     },
-    "league": "ILE DE FRANCE"
+    "league": "BOURGOGNE FRANCHE COMTE"
   },
   {
     "gender": "F",
@@ -17597,12 +17602,13 @@
     ],
     "isIdF": false,
     "location": {
-      "lat": 48.754294,
-      "lng": 2.222606,
-      "city": "Bièvres",
-      "postcode": "91570"
+      "lat": 47.199355,
+      "lng": -1.502678,
+      "city": "Saint-Sébastien-sur-Loire",
+      "postcode": "44230",
+      "league": "PAYS DE LA LOIRE"
     },
-    "league": "ILE DE FRANCE"
+    "league": "PAYS DE LA LOIRE"
   },
   {
     "gender": "F",
@@ -17730,12 +17736,13 @@
     ],
     "isIdF": false,
     "location": {
-      "lat": 48.754294,
-      "lng": 2.222606,
-      "city": "Bièvres",
-      "postcode": "91570"
+      "lat": 47.199355,
+      "lng": -1.502678,
+      "city": "Saint-Sébastien-sur-Loire",
+      "postcode": "44230",
+      "league": "PAYS DE LA LOIRE"
     },
-    "league": "ILE DE FRANCE"
+    "league": "PAYS DE LA LOIRE"
   },
   {
     "gender": "F",
@@ -23259,10 +23266,10 @@
     "isIdF": true,
     "league": "ILE DE FRANCE",
     "location": {
-      "lat": 48.754294,
-      "lng": 2.222606,
-      "city": "Bièvres",
-      "postcode": "91570",
+      "lat": 48.820327,
+      "lng": 2.471927,
+      "city": "Joinville-le-Pont",
+      "postcode": "94340",
       "league": "ILE DE FRANCE"
     }
   },
@@ -23406,10 +23413,10 @@
     "isIdF": true,
     "league": "ILE DE FRANCE",
     "location": {
-      "lat": 48.754294,
-      "lng": 2.222606,
-      "city": "Bièvres",
-      "postcode": "91570",
+      "lat": 48.820327,
+      "lng": 2.471927,
+      "city": "Joinville-le-Pont",
+      "postcode": "94340",
       "league": "ILE DE FRANCE"
     }
   },

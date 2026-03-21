@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TenUp IdF Explorer",
+  title: "Rencontres par équipes FFT",
   description: "Recensement des rencontres nationales FFT en Île-de-France",
 };
 
